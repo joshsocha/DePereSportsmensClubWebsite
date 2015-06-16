@@ -1,0 +1,28 @@
+<div class="row">
+<div class="col-lg-12">
+	<h1>Hunter's Safety</h1>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-4 pull-right">
+	<b>Hunters Safety Contact:</b><br/>
+	<span></span>John Johnson<br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.869.3293</span><br/>
+	<br/>
+</div>
+<div class="col-lg-9 col-md-9 col-sm-8">
+	<p>Hunting Course Requirements (<a href="http://dnr.wi.gov/education/outdoorSkills/safetyEducation.html#2">From WI DNR Website</a>)</p>
+	<p>Anyone born on or after Jan. 1, 1973, must have completed a hunter education course and show the certificate to purchase any hunting license in Wisconsin. However, if they will be hunting under the hunting mentorship program or they have successfully completed and have proof completing basic training in the U.S. armed forces, reserves or national guard, they do not need a hunting safety course certificate to purchase a license.</p>
+	<p>Hunter education graduates receive a certificate that is accepted in every state, Canadian province and Mexico. </p>
+	<p>For Wisconsin residents, a first time graduate may use the Wisconsin hunter education certificate in lieu of a small game hunting license from the date of issuance until March 31 of the following year. Those qualifying do not need to purchase a small game license, the certificate is the license for the established time period. </p>
+	<p>Course information </p>
+	<p>The hunter education course instills in students the knowledge and skill to be a responsible and safe hunter. The basic course consists of 10 lessons during a minimum of 10 hours. Students learn how hunting accidents are caused and how they can be prevented. Hunter responsibility and safety are stressed throughout the classes, which consist of lectures, demonstrations, group discussions, practical exercises, and individual study and activity assignments. <a href="http://dnr.wi.gov/files/pdf/pubs/le/LEH104.pdf">Hunter education course manual [PDF]</a></p>
+	<p>Length of course: Minimum 10 hours. The average length is 18 hours.</p>
+	<p>Cost of course: $10 per student</p>
+	<p>Where: De Pere Sportsmen's Club - Club House</p>
+	<p>When: The club will be conducting their 2015 Spring Hunter Education class starting in April. The finalized dates are April 8, 15, 17, 22 &amp; 24. These are Wednesday and Friday dates from 6:00 to 9:00 PM. If you have someone who  needs a Hunter Ed Certificate by this fall, do not hesitate to get them signed up ASAP as these classes fill up quickly.</p>
+	<p>To Register: Call John Johnson at 920-869-3293 who will provide additional instructions.</p>
+	<p>Additional Questions: Dennis Dugre at 920-494-9227</p>
+	<p>Other Courses: Visit the DNR website for additional course offerings: <a href="http://dnr.wi.gov/education/outdoorskills/safetyeducation.html">http://dnr.wi.gov/education/outdoorskills/safetyeducation.html</a></p>
+</div>
+</div>

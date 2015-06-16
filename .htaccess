@@ -1,0 +1,22 @@
+<IfModule mod_expires.c>
+	# Expires-Header
+	ExpiresActive On
+	ExpiresByType application/javascript "access plus 7 days"
+	ExpiresByType text/css "access plus 7 days"
+
+	# ETag
+	FileETag All
+</IfModule>
+<IfModule mod_deflate.c>
+	<FilesMatch "\.(html|txt|css|js|php|pl)$">
+		SetOutputFilter DEFLATE
+	</FilesMatch>
+</IfModule>
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?/$1 [NC,L,QSA]
+</IfModule>
