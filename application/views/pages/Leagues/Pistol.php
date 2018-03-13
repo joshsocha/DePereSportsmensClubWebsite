@@ -9,6 +9,10 @@
 	<span></span>Mark Brienen<br/>
 	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.469.1815</span><br/>
 	<br/>
+	<a href="https://dl.dropboxusercontent.com/u/23720637/bullseye handicapV2.xls" target="_blank">2014 Scores</a><br/>
+	<a href="http://dl.dropbox.com/u/23720637/Bullseye-2013.xlsx" target="_blank">2013 Scores</a><br/>
+	<a href="http://dl.dropbox.com/u/23720637/Bullseye-2012.xlsx" target="_blank">2012 Scores</a><br/>
+	<a href="http://dl.dropbox.com/u/23720637/Lake_To_Lake_2011.htm" target="_blank" shape="rect">2011 Scores</a>
 </div>
 <div class="col-lg-9 col-md-9 col-sm-8">
 	<p>De Pere Sportsmen's Club offers a standard 50 foot indoor range for pistol and small bore rifle shooting.  Due to the backstop construction a maximum velocity of 800 F.P.S. must be enforced to prevent damage, and No jacketed bullets are permitted. We typically shoot .22 rimfire, and some .38 and .45 target loads only. So, no 9mm, .357, .44, and the like.  Higher velocity pistols are restricted to outdoor range use only. Check the Action Pistol link below.</p>

@@ -17,12 +17,14 @@
 	<p>For Wisconsin residents, a first time graduate may use the Wisconsin hunter education certificate in lieu of a small game hunting license from the date of issuance until March 31 of the following year. Those qualifying do not need to purchase a small game license, the certificate is the license for the established time period. </p>
 	<p>Course information </p>
 	<p>The hunter education course instills in students the knowledge and skill to be a responsible and safe hunter. The basic course consists of 10 lessons during a minimum of 10 hours. Students learn how hunting accidents are caused and how they can be prevented. Hunter responsibility and safety are stressed throughout the classes, which consist of lectures, demonstrations, group discussions, practical exercises, and individual study and activity assignments. <a href="http://dnr.wi.gov/files/pdf/pubs/le/LEH104.pdf">Hunter education course manual [PDF]</a></p>
-	<p>Length of course: Minimum 10 hours. The average length is 18 hours.</p>
-	<p>Cost of course: $10 per student</p>
-	<p>Where: De Pere Sportsmen's Club - Club House</p>
-	<p>When: The club will be conducting their 2015 Spring Hunter Education class starting in April. The finalized dates are April 8, 15, 17, 22 &amp; 24. These are Wednesday and Friday dates from 6:00 to 9:00 PM. If you have someone who  needs a Hunter Ed Certificate by this fall, do not hesitate to get them signed up ASAP as these classes fill up quickly.</p>
-	<p>To Register: Call John Johnson at 920-869-3293 who will provide additional instructions.</p>
-	<p>Additional Questions: Dennis Dugre at 920-494-9227</p>
+	<p><b>Length of course: </b>Minimum 10 hours. The average length is 18 hours.</p>
+	<p><b>Cost of course: </b>$10 per student</p>
+	<p><b>Where: </b>De Pere Sportsmen's Club - Club House</p>
+	<p><b>When: </b>The De Pere Sportsmen's Club will be conducting their spring Hunter Education classes on April 18, 20, 25, 27 and May 2. Enrollment has to be done on-line. Go here, and click on "Search For and Enroll in Upcoming Classes" and then follow the prompts. If you have someone who  needs a Hunter Ed Certificate for this fall, do not hesitate to get them signed up ASAP as these classes fill up quickly.</p>
+	<p><b>NOTE: </b>These classes wont be posted on the DNR site until sometime in February or early March, so keep checking to make sure you don't miss out.</p>
+	<p><b>Additional Questions: </b>Dennis Dugre at 920-494-9227 &amp; Rick Allcox at 920-819-2574</p>
 	<p>Other Courses: Visit the DNR website for additional course offerings: <a href="http://dnr.wi.gov/education/outdoorskills/safetyeducation.html">http://dnr.wi.gov/education/outdoorskills/safetyeducation.html</a></p>
+	<p>Below are Hunter Safety students during the Fall 2015 Field Day event sponsored at De Pere Sportsman's Club.  They are shooting 22 rifles and trap with a 20 gauge shotgun during the event.  One group of students are also taking a field test.</p>
+	<img src="/assets/images/hunterSafety/1.png"/><img src="/assets/images/hunterSafety/2.png"/><img src="/assets/images/hunterSafety/3.png"/><img src="/assets/images/hunterSafety/4.png"/><img src="/assets/images/hunterSafety/5.png"/><img src="/assets/images/hunterSafety/6.png"/><img src="/assets/images/hunterSafety/7.png"/><img src="/assets/images/hunterSafety/8.png"/><img src="/assets/images/hunterSafety/9.png"/><img src="/assets/images/hunterSafety/10.png"/><img src="/assets/images/hunterSafety/11.png"/><img src="/assets/images/hunterSafety/12.png"/>
 </div>
 </div>

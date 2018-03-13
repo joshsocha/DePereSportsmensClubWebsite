@@ -5,10 +5,12 @@
 </div>
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
-	<b>Trap Representative:</b><br/>
-	<span>Mark Baugnet</span><br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.864.7457</span><br/>
+	<b>Trap Representatives:</b><br/>
+	<span>Brett Junio</span><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.680.4594</span><br/>
 	<br/>
+	<span>Adam Prokash</span><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.606.9641</span><br/>
 	<img class="img-responsive" src="<?php echo base_url();?>assets/images/TrapRange.jpg"/>
 </div>
 <div class="col-lg-9 col-md-9 col-sm-8">

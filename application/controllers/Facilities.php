@@ -66,6 +66,26 @@ class Facilities extends MY_Controller {
 
 	public function RifleRange()
 	{
+		$sunsetDateTimes = array();
+		date_default_timezone_set('America/Chicago');
+		$currentTime = time();
+		for($i = 0; $i < 30; $i++){
+			$sunset = date_sunset(($currentTime + (24*60*60*$i)), SUNFUNCS_RET_TIMESTAMP, 44.395258, -88.022459);
+			$sunsetTime = date('g:i a', $sunset);
+			if(strcmp($sunsetTime, '8') > 0){
+				$sunsetTime = '8:00 pm';
+			}
+			$openTime = '8:00 am';
+			if(strcmp(date('w', $sunset), '0') == 0){
+				$openTime = '9:00 am';
+			}
+			$sunsetDateTimes[$i] = array(
+				"date" => date('F j, Y', $sunset),
+				"openTime" => $openTime,
+				"closeTime" => $sunsetTime
+			);
+		}
+		$this->data['sunsetDateTimes'] = $sunsetDateTimes;
 		$this->data['title'] = "Rifle Range";
 		$this->data['subpage'] = "riflerange";
 		$this->data["banner"] = "RifleRangeBanner.jpg";

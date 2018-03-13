@@ -6,9 +6,11 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>Trap Representatives:</b><br/>
-	<span></span>Mark Baugnet<br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.621.9115</span><br/>
+	<span></span>Brett Junio<br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.680.4594<span><br/>
 	<br/>
+	<span></span>Adam Prokash<br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.606.9641<span><br/>
 </div>
 <div class="col-lg-9 col-md-9 col-sm-8">
 	<p>So, you think you want to learn trapshooting? De Pere Sportsmen's Club offers year-round opportunities to get a chance to learn trap shooting, and has league nights on Mondays and Thursdays to offer you the chance to improve your skills. Three trap fields are available. Fields # 1 and # 2 are generally occupied by league shooting while Field # 3 is an “open” field for practice shooting. Leagues are available in summer and fall.</p>
@@ -17,11 +19,9 @@
 
 	<p>Emphasis is always placed on safety first when new shooters start out. Like all shooting sports, scores will almost always improve with practice. Please observe the club policy of not using the range for hand- or personal machine-thrown birds for safety and insurance reasons. Shot size is limited to not larger than #7 1/2 - 8 except when using the pattern board to the left of Field # 1.</p>
 	
-	<iframe src="https://www.google.com/calendar/embed?src=eq7gbpksc5g421ttosev7mp520%40group.calendar.google.com&ctz=America/Chicago" class="google-calendar"></iframe>
-
-	<h3>More Info:</h3>
+	<iframe src="https://calendar.google.com/calendar/embed?src=deperesportsmensclub.com_0shf0ipaeo4nst7t52amhn9650%40group.calendar.google.com&ctz=America%2FChicago" class="google-calendar"></iframe>
 	<!--<iframe src="https://drive.google.com/embeddedfolderview?id=0B4darMYoCJ0mfmZtYWNva0ptWE5HYk1ac001dlhodHVUMnJ0X1hsTENKb0JKYzRkbXNjZWM#list" class="google-drive"></iframe>-->
-<?php
+<?php /*
 require_once 'C:\xampp\htdocs\deperesportsmens.club\application\third_party\Google\autoload.php';
 
 $client_email = '406583389830-7p14t1hrav2hoomjpnqtura54rt8urrn@developer.gserviceaccount.com';
@@ -56,7 +56,7 @@ foreach($results as $fileRef){
 	$file = $service->files->get($id);
 	echo '<img src="'.$file->getIconLink().'" /> <a target="_blank" href="'.$file->getAlternateLink().'">'.$file->getTitle().'</a><br/>';
 }
-
+*/
 ?>
 
 

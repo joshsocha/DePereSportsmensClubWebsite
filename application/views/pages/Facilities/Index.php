@@ -21,13 +21,11 @@
 <h3><a href="<?php echo base_url();?>Facilities/Trap">Trap</a></h3>
 <p>So, you think you want to learn trapshooting? De Pere Sportsmen's Club offers year-round opportunities to get a chance to learn trap shooting, and has league nights on Mondays and Thursdays to offer you the chance to improve your skills. Three trap fields are available. Fields # 1 and # 2 are generally occupied by league shooting while Field # 3 is an “open” field for practice shooting.</p>
 
-<h2>Where are we?</h2>
+<h2 id="location" name="location">Where are we?</h2>
 <p>The De Pere Sportsmen's Club is convieniently located just minutes southeast of De Pere at:<br/>
-<table>
-	<tr><td><span class="glyphicon glyphicon glyphicon-map-marker"></span></td><td>3623 Club Drive</td></tr>
-	<tr><td></td><td>De Pere, WI 54115</td></tr>
-</table>
-<span class="glyphicon glyphicon-phone-alt"></span> 920.336.4498<br/>
+<div class="float"><span class="glyphicon glyphicon glyphicon-map-marker"></span></div>
+<div class="float">3623 Club Drive <br/>De Pere, WI 54115</div>
+<div style="clear: both;"><span class="glyphicon glyphicon-phone-alt"></span> 920.336.4498<br/></div>
 </p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22807.419650762924!2d-88.02312699629677!3d44.39361086514628!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802fd467416467b%3A0x120021b44dc85a26!2s3623+Club+Dr%2C+De+Pere%2C+WI+54115!5e0!3m2!1sen!2sus!4v1432168413865" width="95%" height="600" frameborder="0" style="border:0"></iframe>
 </div>

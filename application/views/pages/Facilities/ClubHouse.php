@@ -6,8 +6,8 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>Grounds Caretaker:</b><br/>
-	<span></span>Eric Capelle &amp; Kim Rosek<br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.336.4498</span><br/>
+	<span></span>Dan Herman<br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.360.4777</span><br/>
 	<br/>
 	<img class="img-responsive" src="<?php echo base_url();?>assets/images/Clubhouse.jpg"/>
 </div>

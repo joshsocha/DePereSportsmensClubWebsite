@@ -1,34 +1,41 @@
 <h1>20-Gun Raffle</h1>
-<p>2014 Event:<br/>
-When: Thursday, August 21, 2014 @ 7pm<br/>
+<h2>2016 Event</h2>
+When: Thursday, August 25, 2016 @ 7pm<br/>
 Where: De Pere Sportsmen's Club</p>
 <p>Tickets are distributed annually to members to assist in this fundraising event. The title says it all; 20 guns are raffled off and only 1000 tickets are sold.</p>
 <p>Please assist us in this annual Club activity; buy a ticket, sell a ticket. It all helps to complete the physical improvement work of the Club.</p>
-<p>The list of guns &amp; winners for the 2014 event are as follows:</p>
-<table class="table-with-header">
+<p>The list of guns &amp; winners for the 2016 event are as follows:</p>
+<table align="center" class="table-with-header">
 	<thead>
-		<tr><th></th><th>Winner</th><th>Gun</th></tr>
+		<tr><th></th><th>Gun</th><th>Winner</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>1</td><td>Tim Marsh</td><td>Savage 116 Trophy Hunter XP 270 w/ Nikon Scope</td></tr>
-		<tr><td>2</td><td>Bart Koenig</td><td>S&amp;W 40mm Auto</td></tr>
-		<tr><td>3</td><td>Joe Fritsch</td><td>Browning BPS Engraved Hunter 12ga Wood </td></tr>
-		<tr><td>4</td><td>Jason Lund</td><td>Ruger American Composite 30/06 Bolt</td></tr>
-		<tr><td>5</td><td>Jordan Polzin</td><td>S&amp;W M&amp;P 9mm Auto</td></tr>
-		<tr><td>6</td><td>Zack Meyers</td><td>Tikka T3 Composite/Stainless 30/06 Bolt</td></tr>
-		<tr><td>7</td><td>Norm Braun</td><td>Thompson Center Omega 50 Cal</td></tr>
-		<tr><td>8</td><td>Rick Geurts</td><td>Ruger LC9 9mm Auto</td></tr>
-		<tr><td>9</td><td>Matt Deney</td><td>Savage B-Mag 17 mag Composite</td></tr>
-		<tr><td>10</td><td>Theresa Nesvaiel</td><td>Benelli Nova 12ga Camo 28"</td></tr>
-		<tr><td>11</td><td>Jacki Braun</td><td>Marlin 336 30/30 Lever Wood</td></tr>
-		<tr><td>12</td><td>Ross Peebles</td><td>Ruger LCR Revolver 38 Special</td></tr>
-		<tr><td>13</td><td>Charlie Kussow</td><td>Savage 17 HMR Camo with Scope</td></tr>
-		<tr><td>14</td><td>Nate Younkle</td><td>Weatherby 12ga Pump Wood</td></tr>
-		<tr><td>15</td><td>Andy Deen</td><td>Remington 887 Nitro 12ga Camo</td></tr>
-		<tr><td>16</td><td>Vicki Vohl</td><td>CZ 712 12ga Auto Wood</td></tr>
-		<tr><td>17</td><td>Rick Geurts</td><td>Winchester SXP Waterfowl 12ga Camo 3.5"</td></tr>
-		<tr><td>18</td><td>Steve Treichel</td><td>Savage Axis 270 Composite Bolt</td></tr>
-		<tr><td>19</td><td>Jon Barrett</td><td>Ruger SR9 9mm Auto Stainless</td></tr>
-		<tr><td>20</td><td>Eric Lemberger</td><td>Browning BT-99 12ga 32"</td></tr>
+		<tr><td>1</td><td>Weatherby PA-08 Upland 12ga</td><td>Dick Jonas</td></tr>
+		<tr><td>2</td><td>Glock 43 9 mm </td><td>Steve Pelletier</td></tr>
+		<tr><td>3</td><td>ATI Cavalry Over/Under 20ga</td><td>Dan Wiese</td></tr>
+		<tr><td>4</td><td>Smith &amp; Wesson SD40VE</td><td>Jayden Delahaut</td></tr>
+		<tr><td>5</td><td>CZ 920 Semi-Auto 20 ga</td><td>Chris Tenor</td></tr>
+		<tr><td>6</td><td>Rossi 972 Stainless 357</td><td>Jeff Austin</td></tr>
+		<tr><td>7</td><td>Savage Axis Synthetic 223</td><td>Max Lasee</td></tr>
+		<tr><td>8</td><td>Mossberg 500 410</td><td>Tony Fischer</td></tr>
+		<tr><td>9</td><td>Ruger American Pistol 45</td><td>Kevin Houle</td></tr>
+		<tr><td>10</td><td>Winchester SXP Camo 3½ 12ga</td><td>	Kevin Stahl</td></tr>
+		<tr><td>11</td><td>Weatherby PA-08 Upland 12ga</td><td>Justin Hoerth</td></tr>
+		<tr><td>12</td><td>Remington 783 Camo 308 with scope</td><td>Sharon Winter</td></tr>
+		<tr><td>13</td><td>Springfield XD Mod. 2 40cal</td><td>Cole Hendricks</td></tr>
+		<tr><td>14</td><td>Browning A-Bolt 3 Hunter 270</td><td>Emma Konopasek</td></tr>
+		<tr><td>15</td><td>T-C Venture Blue 30-06</td><td>Steve Labs</td></tr>
+		<tr><td>16</td><td>Savage A-17 Semi-Auto 12ga</td><td>Desiree Stokes</td></tr>
+		<tr><td>17</td><td>Remington V-3 Semi-Auto 12ga</td><td>Nikki Koch</td></tr>
+		<tr><td>18</td><td>Smith &amp; Wesson Shield 9mm</td><td>Roland Calkins</td></tr>
+		<tr><td>19</td><td>Tikka T-3 Stainless Synthetic 300</td><td>Dennis Dugre</td></tr>
+		<tr><td>20</td><td>Browning BT-99</td><td>Emma Konopasek</td></tr>
 	</tbody>
 </table>
+<h3>Guns are purchased through:</h3>
+<p>
+	Bradley Gun Sales<br/>
+	6189 S County Road P<br/>
+	Denmark, WI 54208<br/>
+	920.863.8534
+</p>

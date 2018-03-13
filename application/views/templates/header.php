@@ -5,15 +5,27 @@
   <link href="<?php echo base_url('/assets/css/custom.css'); ?>" rel="stylesheet">
 	<title><?php if(isset($title)) echo $title; ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<?php if(!in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1'))) : ?>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96849732-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-96849732-1');
+  </script>
+<?php endif; ?>
 </head>
 <body>
 <div class="container-fluid" style="max-width:1000px; background-color:white;">
 <div class="row">
 	<div class="col-lg-12">
-		<h1>De Pere Sportsmen's Club</h1><br/><br/>
+		<h1>De Pere Sportsmen's Club</h1>
+    <h3>Est. 1952</h3>
 	</div>
 </div>
-<div class="row" style="max-width:1000px;" data-spy="affix" data-offset-top="109" id="nav">
+<div class="row" style="max-width:1000px;" id="nav">
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -36,8 +48,8 @@
             <li class="<?php if($subpage=="eventsandnews") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews">Main Calendar</a></li>
             <li class="<?php if($subpage=="newsletter") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/Newsletter">Newsletter</a></li>
             <li class="<?php if($subpage=="winterfest") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/Winterfest">Winterfest</a></li>
-            <li class="<?php if($subpage=="sportsmensraffle") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/SportsmensRaffle">Sportsmen's Raffle</a></li>
-            <li class="<?php if($subpage=="cancerresearchbenefit") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/CancerResearchBenefit">Cancer Research Benefit</a></li>
+            <?php /*<li class="<?php if($subpage=="sportsmensraffle") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/SportsmensRaffle">Sportsmen's Raffle</a></li>*/?>
+            <?php /*<li class="<?php if($subpage=="cancerresearchbenefit") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/CancerResearchBenefit">Cancer Research Benefit</a></i>*/?>
             <li class="<?php if($subpage=="20gunraffle") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/20GunRaffle">20-Gun Raffle</a></li>
             <li class="<?php if($subpage=="sightindays") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/SightInDays">Sight-in Days</a></li>
             <li class="<?php if($subpage=="hunterssafety") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/HuntersSafety">Hunter's Safety</a></li>
@@ -51,7 +63,7 @@
             <li class="<?php if($subpage=="4h") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/4H">4H Shooting</a></li>
             <li class="<?php if($subpage=="actionpistol") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/ActionPistol">Action Pistol</a></li>
             <li class="<?php if($subpage=="actionrifle") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/ActionRifle">Action Rifle</a></li>
-            <li class="<?php if($subpage=="juniorrifle") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/JuniorRifle">Junior Rifle</a></li>
+            <?php /*<li class="<?php if($subpage=="juniorrifle") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/JuniorRifle">Junior Rifle</a></li>*/?>
             <li class="<?php if($subpage=="pistol") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/Pistol">Pistol</a></li>
             <li class="<?php if($subpage=="trapleague") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/Trap">Trap</a></li>
           </ul>
@@ -90,6 +102,6 @@
 </nav>
 </div><!-- /.container-fluid -->
 <div class="row">
-  <div class="col-lg-12"><img class="img-responsive" src="<?php echo base_url();?>assets/images/<?php echo $banner; ?>"/></div>
+  <div class="col-lg-12" style="background-color: #fff; padding: 0;"><img class="img-responsive" style="display: block;margin-left: auto;margin-right: auto;" src="<?php echo base_url();?>assets/images/<?php echo $banner; ?>"/></div>
 </div>
 <!--<img style="position:absolute;display:block;top:0;z-index:-999;margin-right:auto;margin-left:auto;min-height:400px;" class="img-responsive" src="<?php echo base_url();?>assets/images/Default.jpg"/>-->

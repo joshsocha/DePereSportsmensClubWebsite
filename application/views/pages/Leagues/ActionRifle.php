@@ -5,7 +5,7 @@
 </div>
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
-	<b>Action Pistol Representatives:</b><br/>
+	<b>Action Rifle Representatives:</b><br/>
 	<span></span>Tom Lang<br/>
 	<span><span class="glyphicon glyphicon-envelope"></span> tlang6030@yahoo.com</span><br/>
 	<span><span class="glyphicon glyphicon-phone-alt"></span> 608.695.9777</span><br/>
