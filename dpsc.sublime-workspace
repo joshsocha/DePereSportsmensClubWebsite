@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"sun",
+				"sunsetTime"
+			],
+			[
+				"in",
+				"inline-table"
+			],
+			[
+				"sunset",
+				"sunsetDateTimes"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
 				"alig",
 				"text-align"
 			],
@@ -80,65 +96,66 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Program Files/Plex/Plex Media Player/qt.conf",
+			"file": "application/views/templates/footer.php",
 			"settings":
 			{
-				"buffer_size": 95,
+				"buffer_size": 390,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Program Files/OpenVPN/easy-rsa/vars.bat",
+			"file": "assets/css/custom.css",
 			"settings":
 			{
-				"buffer_size": 971,
+				"buffer_size": 2809,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/controllers/Facilities.php",
+			"settings":
+			{
+				"buffer_size": 2921,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/pages/Facilities/RifleRange.php",
+			"settings":
+			{
+				"buffer_size": 3015,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "\n<?php\n\tif(!isset($_POST[\"reset\"]) || $_POST[\"reset\"] != \"yes\"){\n\t\techo '<form method=\"post\"><input type=\"text\" name=\"reset\" /><br/><input type=\"submit\" name=\"submit\"/></form>';\n\t\treturn;et caching headers for images\n\t}\n\tset_time_limit(0);\n\t$conn = new mysqli(\"localhost\",\"root\",\"\",\"test\");\n\t// Check connection\n\tif (mysqli_connect_errno())\n\t{\n\t\techo \"Failed to connect to MySQL: \" . mysqli_connect_error();\n\t}\n\tfor($x = 1; $x <= 151; $x++){\n\t\t$stmt = $conn->prepare(\"INSERT INTO Pokemon (id,Name,Type1,Type2,Height,Weight,Sprite) VALUES (?, ?, ?, ?, ?, ?, ?) ON DUPLICATE KEY UPDATE Name = VALUES(Name), Type1 = VALUES(Type1), Type2 = VALUES(Type2), Height = VALUES(Height), Weight = VALUES(Weight), Sprite = VALUES(Sprite);\");\n\t\t$json = CallAPI(\"GET\", \"http://pokeapi.co/api/v2/pokemon/\".$x.\"/\");\n\t\t$pokemon = json_decode($json);\n\t\t$types = GetTypes($pokemon);\n\t\t$stmt->bind_param(\"isssiis\", $x, $pokemon->name, $types[0], $types[1], $pokemon->height, $pokemon->weight, $pokemon->sprites->front_default);\t\t\n\t\tif(!$stmt->execute()){\n\t\t\techo $stmt->error;\n\t\t}\n\t\tif(!file_exists(\"./images/\".$x.\".png\")){\n\t\t\tfile_put_contents(\"./images/\".$x.\".png\", fopen($pokemon->sprites->front_default.$x.'.png', 'r'));\n\t\t}\n\t\techo $x . \"<br />\";\n\t\t//$stmt->close();\n\t}\n\techo \"done\" . \"<br />\";\n\t$conn->close();\n\techo \"closed connection\";\n?>\n\n<?php\n// Method: POST, PUT, GET etc\n// Data: array(\"param\" => \"value\") ==> index.php?param=value\n\nfunction CallAPI($method, $url, $data = false)\n{\n    $curl = curl_init();\n\n    switch ($method)\n    {\n        case \"POST\":\n            curl_setopt($curl, CURLOPT_POST, 1);\n\n            if ($data)\n                curl_setopt($curl, CURLOPT_POSTFIELDS, $data);\n            break;\n        case \"PUT\":\n            curl_setopt($curl, CURLOPT_PUT, 1);\n            break;\n        default:\n            if ($data)\n                $url = sprintf(\"%s?%s\", $url, http_build_query($data));\n    }\n\n    // Optional Authentication:\n    //curl_setopt($curl, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);\n    //curl_setopt($curl, CURLOPT_USERPWD, \"username:password\");\n\n    curl_setopt($curl, CURLOPT_URL, $url);\n    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);\n    curl_setopt($curl, CURLOPT_HTTPHEADER, array(\n    \t\"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\",\n\t\t\"Accept-Language: en-US,en;q=0.8\",\n\t\t\"Cookie: __cfduid=dc58b25e3f07aa0062fbda0b3ec84682a1467417906; cf_clearance=0bdca68c18ada9d86b7350caef20fe3789e12605-1467818677-31536000; _ga=GA1.2.738838816.1467417914\"\n    ));\n\n    $result = curl_exec($curl);\n\n    curl_close($curl);\n\n    return $result;\n}\nfunction GetTypes($pokemon){\n\t$result = array(\"\", \"\");\n\tforeach($pokemon->types as $type){\n\t\tif($type->slot == 1){\n\t\t\t$result[0] = $type->type->name;\n\t\t}else if($type->slot == 2){\n\t\t\t$result[1] = $type->type->name;\n\t\t}\n\t}\n\treturn $result;\n}\n/*\n\nCREATE PROCEDURE usp_Pokemon_Upsert(\n    id1 int,\n    Name1 Varchar(256),\n    Type11 Varchar(256),\n    Type21 Varchar(256),\n    Height1 int(11),\n    Weight1 int(11)\n)\nBEGIN\n\tIF EXISTS(SELECT * FROM Pokemon WHERE id = id1)\n\tTHEN\n\t\tUPDATE Pokemon\n\t\tSET Name= Name1,\n\t\t\tType1 = Type11,\n\t\t\tType2= Type21,\n\t\t\tHeight = Height1,\n\t\t\tWeight = Weight1\n\t\tWHERE id = id1;\n\tELSE\n\t\tINSERT INTO Pokemon (id,Name,Type1,Type2,Height,Weight) VALUES (id1,Name1,Type11,Type21,Height1,Weight1);\n\tEND IF;\nEND//\n*/\n?>",
-			"file": "/C/xampp/htdocs/pokemon/reload.php",
-			"file_size": 3418,
-			"file_write_time": 131149007120114850,
+			"file": "application/views/pages/Facilities/Index.php",
 			"settings":
 			{
-				"buffer_size": 3336,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Joshua/Downloads/eula.txt",
-			"settings":
-			{
-				"buffer_size": 180,
+				"buffer_size": 2847,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<table align=\"center\" class=\"prizes\">\n\t<thead>\n\t\t\t<tr><td colspan=\"2\" style=\"font-weight:bold;text-align: center;\">$20 Ticket Raffle Prizes</td></tr>\n\t</thead>\n\t<tbody>\n\t\t<tr><td style=\"width: 25px;\">1</td><td>Savage 270 with scope</td></tr>\n\t\t<tr><td>2</td><td>$450</td></tr>\n\t\t<tr><td>3</td><td>Masterbuilt Sportsman Elite 40\" Electric Smokehouse</td></tr>\n\t\t<tr><td>4</td><td>CVA Optima 50 xal Muzzleloader</td></tr>\n\t\t<tr><td>5</td><td>$500</td></tr>\n\t\t<tr><td>6</td><td>Old Town Vapor 10 Angler Kayak</td></tr>\n\t\t<tr><td>7</td><td>Smith &amp; Wesson Shield 40cal</td></tr>\n\t\t<tr><td>8</td><td>Samsung 32\" LED 1080p Smart TV</td></tr>\n\t\t<tr><td>9</td><td>$500</td></tr>\n\t\t<tr><td>10</td><td>Ruger 10/22 with scope</td></tr>\n\t\t<tr><td>11</td><td>Husqvarna 10\" 46cc Gas Chainsaw</td></tr>\n\t\t<tr><td>12</td><td>$475</td></tr>\n\t\t<tr><td>13</td><td>Coleman 62-Qt Xtreme Cooler filled with booze</td></tr>\n\t\t<tr><td>14</td><td>Winchester SXP 12ga</td></tr>\n\t\t<tr><td>15</td><td>Weber Spirit E210 Gas Grill</td></tr>\n\t\t<tr><td>16</td><td>$500</td></tr>\n\t\t<tr><td>17</td><td>DRMS A15 Oracle 223 cal.</td></tr>\n\t\t<tr><td>18</td><td>Big Mike Blind and Cuddeback Black Flash Game Camera with Bear Box</td></tr>\n\t\t<tr><td>19</td><td>$350</td></tr>\n\t\t<tr><td>20</td><td>Glock 43 9mm</td></tr>\n\t\t<tr><td>21</td><td>Vizio 50\" LED 4k Smart TV</td></tr>\n\t\t<tr><td>22</td><td>$475</td></tr>\n\t\t<tr><td>23</td><td>Stoeger 10ga Automatic</td></tr>\n\t\t<tr><td>24</td><td>Ice Team Five Sided 360 Shelter</td></tr>\n\t\t<tr><td>25</td><td>$450</td></tr>\n\t</tbody>\n</table>\ntable.prizes th, table.prizes td {\n   border: 1px solid black;\n}\ntable.prizes{\n    border-collapse: collapse;\n    width: 100%;\n}\ntable.prizes th, table.prizes td{\n    width: 50%;\n}",
+			"file": "application/views/pages/Home.php",
 			"settings":
 			{
-				"buffer_size": 1729,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Program Files/OpenVPN/easy-rsa/keys/ca.crt",
-			"settings":
-			{
-				"buffer_size": 1407,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Joshua/Desktop/josh.crt",
-			"settings":
-			{
-				"buffer_size": 1472,
+				"buffer_size": 2688,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/pages/EventsAndNews/HuntersSafety.php",
+			"settings":
+			{
+				"buffer_size": 3745,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -176,18 +193,49 @@
 	[
 		"/C/xampp/htdocs/deperesportsmens.club",
 		"/C/xampp/htdocs/deperesportsmens.club/application",
-		"/C/xampp/htdocs/deperesportsmens.club/application/config",
 		"/C/xampp/htdocs/deperesportsmens.club/application/controllers",
-		"/C/xampp/htdocs/deperesportsmens.club/application/core",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews",
-		"/C/xampp/htdocs/deperesportsmens.club/assets",
-		"/C/xampp/htdocs/deperesportsmens.club/assets/css",
-		"/C/xampp/htdocs/deperesportsmens.club/assets/images"
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Join",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/templates",
+		"/C/xampp/htdocs/deperesportsmens.club/assets"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/templates/header.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/errors/html/error_404.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/AboutUs/BoardMembers.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Join/Index.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/ActionPistol.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/ActionRifle.php",
+		"/C/xampp/htdocs/deperesportsmens.club/.gitignore",
+		"/C/xampp/htdocs/deperesportsmens.club/contributing.md",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/4H.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Home.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/ClubHouse.php",
+		"/C/xampp/htdocs/deperesportsmens.club/assets/web.config",
+		"/C/xampp/htdocs/deperesportsmens.club/web.config",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/Trap.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/RifleRange.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/Trap.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/Pistol.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/HuntersSafety.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/SightInDays.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/Winterfest.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/20GunRaffle.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/Newsletter.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/Index.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/Index.php",
+		"/C/Users/Joshua/OneDrive/Documents/FORScan/F150/BCM20160625.abt",
+		"/C/Users/Joshua/Downloads/1FTFX1EF2GKF42529.ab",
+		"/C/Users/Joshua/Desktop/josh.crt",
+		"/C/Program Files/OpenVPN/easy-rsa/keys/ca.crt",
+		"/C/xampp/htdocs/pokemon/reload.php",
+		"/C/Program Files/Plex/Plex Media Player/qt.conf",
+		"/C/Program Files/OpenVPN/easy-rsa/vars.bat",
+		"/C/Users/Joshua/Downloads/eula.txt",
 		"/C/Users/Joshua/Downloads/MEGA-RECOVERYKEY.txt",
 		"/C/Program Files/OpenVPN/sample-config/joshClient.ovpn",
 		"/C/Program Files/OpenVPN/doc/INSTALL-win32.txt",
@@ -218,7 +266,6 @@
 		"/C/TeamSpeak 3 Server/TS3ServiceWrapper/TS3ServiceWrapper.InstallLog",
 		"/C/Users/Joshua/AppData/Local/PlexMediaPlayer/plexmediaplayer.conf",
 		"/C/Users/Joshua/Desktop/test.html",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/templates/header.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/config/config.php",
 		"/C/xampp/php/php.ini",
 		"/C/Users/Joshua/AppData/Local/Temp/Temp1_php_apcu-5.1.5-7.0-nts-vc14-x86.zip/INSTALL",
@@ -226,7 +273,6 @@
 		"/C/xampp/htdocs/pokemon/index.html",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/templates/footer.php",
 		"/C/xampp/htdocs/deperesportsmens.club/assets/css/custom.css",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/Newsletter.php",
 		"/C/Users/Joshua/Downloads/TS3ServiceWrapper/TS3ServiceWrapper.exe.config",
 		"/C/Users/Joshua/AppData/Roaming/aacs/hrl",
 		"/C/Users/Joshua/AppData/Roaming/aacs/drl",
@@ -237,23 +283,13 @@
 		"/E/Media/Music/Disney/FrozenOst/00-va-frozen-ost-cd-flac-2013.m3u",
 		"/C/xampp/htdocs/deperesportsmens.club/readme.rst",
 		"/C/xampp/htdocs/deperesportsmens.club/composer.json",
-		"/C/xampp/htdocs/deperesportsmens.club/.gitignore",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Home.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Gallery/ActionPistolVideos.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/AboutUs/RecommendedSites.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/AboutUs/Index.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Join/Index.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/CancerResearchBenefit.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/Index.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/SportsmensRaffle.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/3DArcheryRange.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/ClubHouse.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/Index.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/Index.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/Pistol.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/Trap.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/Trap.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/RifleRange.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/NaturePreserve.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/IndoorRange.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/Gallery.php",
@@ -261,9 +297,7 @@
 		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/Leagues.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/EventsAndNews.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/core/MY_Controller.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/20GunRaffle.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/Join.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/AboutUs/BoardMembers.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/AboutUs.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/config/routes.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/third_party/DePereSportsmensClub-key.json",
@@ -297,29 +331,11 @@
 		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/EventsAndNews/SightInDays.php",
 		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/EventsAndNews/Index.php",
 		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/xampp/htdocs/bellesofelegance.com/.htaccess",
-		"/C/xampp/htdocs/deperesportsments.club/application/core/MY_Controller.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/EventsAndNews/CancerResearchBenefit.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/EventsAndNews/20GunRaffle.php",
-		"/C/xampp/htdocs/deperesportsments.club/assets/css/custom.css",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/EventsAndNews/SportsmensRaffle.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/EventsAndNews/Winterfest.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/EventsAndNews/Newsletter.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/Home.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/Leagues/Index.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/Leagues/Archery.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/controllers/Home.php",
-		"/C/xampp/htdocs/bellesofelegance.com/application/views/pages/home.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/welcome_message.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/Leagues.php",
-		"/C/xampp/htdocs/bellesofelegance.com/application/config/config.php",
-		"/C/xampp/htdocs/bellesofelegance.com/application/views/templates/footer.php",
-		"/C/xampp/htdocs/bellesofelegance.com/application/views/templates/header.php",
-		"/C/xampp/htdocs/dpsc.com/dpsc.sublime-project"
+		"/C/xampp/htdocs/bellesofelegance.com/.htaccess"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -335,6 +351,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"920.619.3933",
+			"environment",
+			"dev",
+			"<td>920",
+			"<td>[a-Z /]*</td>",
+			"[a-Z]</td><td>.*</td></tr>",
+			"</td><td>Glock 43 9 mm </td><td>S&amp;W 40mm Auto</td></tr>",
+			"float",
+			"    ",
+			"\n\t</ul>",
+			"\n\t<ul>",
+			"</li>",
+			"<li>",
+			"</span></font>",
+			"<font style=\"font-size: 12px;\"><span style=\"color: #272727; font-size: 14px; font-style: normal; line-height: normal;\">",
+			"<font face=\"arial, helvetica, freesans, sans-serif\" style=\"font-size: 12px;\">",
+			" style=\"color: #272727; font-family: arial, helvetica, freesans, sans-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: normal;\"",
+			"affix",
 			"cellcom",
 			"parade",
 			",",
@@ -383,9 +417,15 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"<td><span class=\"glyphicon glyphicon-phone-alt\"></span> 920",
+			"</td><td>REPLACE</td></tr>",
+			"newsletter-float",
+			"",
+			"<br/>",
+			"",
 			"<br/>",
 			"localStorage",
 			"fuckMS",
@@ -408,168 +448,29 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Program Files/Plex/Plex Media Player/qt.conf",
+					"file": "application/views/templates/footer.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 95,
+						"buffer_size": 390,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								226,
+								226
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Program Files/OpenVPN/easy-rsa/vars.bat",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 971,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								971,
-								971
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 215.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/xampp/htdocs/pokemon/reload.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3336,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								271,
-								271
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/Joshua/Downloads/eula.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 180,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								179,
-								179
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1729,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1555,
-								1561
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Program Files/OpenVPN/easy-rsa/keys/ca.crt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1407,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1407
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -579,33 +480,176 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/C/Users/Joshua/Desktop/josh.crt",
+					"buffer": 1,
+					"file": "assets/css/custom.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1472,
+						"buffer_size": 2809,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								482,
-								482
+								1988,
+								1988
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1125.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/controllers/Facilities.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2302,
+								2302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 467.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/views/pages/Facilities/RifleRange.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3015,
+								3015
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/views/pages/Facilities/Index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2113,
+								2113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/views/pages/Home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								913,
+								913
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "application/views/pages/EventsAndNews/HuntersSafety.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -650,7 +694,7 @@
 	"project": "dpsc.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -688,7 +732,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 212.0,
+	"side_bar_width": 316.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

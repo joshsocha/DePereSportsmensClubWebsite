@@ -62,8 +62,8 @@
             <li class="<?php if($subpage=="3darchery") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/3DArchery">3D Archery</a></li>
             <li class="<?php if($subpage=="4h") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/4H">4H Shooting</a></li>
             <li class="<?php if($subpage=="actionpistol") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/ActionPistol">Action Pistol</a></li>
-            <li class="<?php if($subpage=="actionrifle") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/ActionRifle">Action Rifle</a></li>
-            <?php /*<li class="<?php if($subpage=="juniorrifle") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/JuniorRifle">Junior Rifle</a></li>*/?>
+            <?php /*<li class="<?php if($subpage=="actionrifle") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/ActionRifle">Action Rifle</a></li>*/?>
+            <li class="<?php if($subpage=="juniorrifle") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/JuniorRifle">Junior Rifle</a></li>
             <li class="<?php if($subpage=="pistol") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/Pistol">Pistol</a></li>
             <li class="<?php if($subpage=="trapleague") echo 'active';?>"><a href="<?php echo base_url();?>Leagues/Trap">Trap</a></li>
           </ul>

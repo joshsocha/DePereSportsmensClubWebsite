@@ -11,6 +11,10 @@ switch ($page) {
 		header("HTTP/1.1 301 Moved Permanently"); 
 		header("Location: /"); 
 		exit();
+	case 'index.html':
+		header("HTTP/1.1 301 Moved Permanently"); 
+		header("Location: /"); 
+		exit();
 	case 'rifle_range.html':
 		header("HTTP/1.1 301 Moved Permanently"); 
 		header("Location: /Facilities/RifleRange"); 
@@ -50,6 +54,10 @@ switch ($page) {
 	case '20-gun_raffle.html':
 		header("HTTP/1.1 301 Moved Permanently"); 
 		header("Location: /EventsAndNews/20GunRaffle"); 
+		exit();
+	case 'hunter_s_safety.php'
+		header("HTTP/1.1 301 Moved Permanently"); 
+		header("Location: /EventsAndNews/HuntersSafety"); 
 		exit();
 }
 ?><!DOCTYPE html>
