@@ -3,8 +3,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <h1>Upcoming Events &amp; News:</h1>
 <hr></hr>
-<h2>Fall Hunter Safety</h2>
-<p>The club will be conducting their fall Hunter Safety classes on September 5th, 7th, 12th, and 15th. To sign up visit the DNR web site <a href="https://dnr.wi.gov/education/outdoorSkills/safetyEducation.html">here</a>. For more information check out the <a href="<?php echo base_url();?>EventsAndNews/HuntersSafety">Hunter Safety</a> page</p>
+<h2>Sight-In Days</h2>
+<p>The De Pere Sportsmen's Club will be starting up their 2018 sight-in days.  The weekend before youth hunt will be the first available time to sight-in. For our other times that we will be holding them be sure to check ou the <a href="<?php echo base_url();?>EventsAndNews/SightInDays">Sign-In Days</a> page</p>
+<hr></hr>
+<h2>20-Gun Raffle</h2>
+<p>The 20-Gun Raffle was drawn on September 6th.  Check out the winners on the <a href="<?php echo base_url();?>EventsAndNews/20GunRaffle">20-Gun Raffle</a> page!</p>
 <hr></hr>
 <h2>2018 3D Archery</h2>
 <p>3D Archery is starting back up May 15th and goes through September 11th. You can shoot any day of the week, but the bar will only be open on Tuesday nights starting at 6:00 PM. Stop by then and enjoy a drink with your fellow archers.</p>

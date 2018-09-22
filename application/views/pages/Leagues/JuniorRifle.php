@@ -6,9 +6,8 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>Junior Rifle Representatives:</b><br/>
-	<span></span>Sheila Reynolds<br/>
-	<span><span class="glyphicon glyphicon-envelope"></span> jreynolds9@new.rr.com</span><br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.336.2049</span><br/>
+	<span></span>Jason Knight<br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.562.0136</span><br/>
 	<br/>
 </div>
 <div class="col-lg-9 col-md-9 col-sm-8">

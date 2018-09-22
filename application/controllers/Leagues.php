@@ -59,6 +59,15 @@ class Leagues extends MY_Controller {
 		$this->render_page('pages/Leagues/ActionPistol');
 	}
 
+	public function ActionPistolParticipantInfo()
+	{
+		$this->data['title'] = "Action Pistol Participant Info";
+		$this->data['subpage'] = "actionpistolparticipantinfo";
+		$this->data['page'] = "";
+		$this->data["banner"] = "ActionPistolBanner.jpg";
+		$this->render_page('pages/Leagues/ActionPistolParticipantInfo');
+	}
+
 	public function ActionRifle()
 	{
 		$this->data['title'] = "Action Rifle";
