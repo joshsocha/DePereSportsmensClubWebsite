@@ -8,7 +8,7 @@
 	<b>Action Pistol Representatives:</b><br/>
 	<span></span>Tom Lang<br/>
 	<span><span class="glyphicon glyphicon-envelope"></span> tlang6030@yahoo.com</span><br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 608.695.9777</span><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.530.3494</span><br/>
 	<br/>
 	<span>Joe Kummerer</span><br/>
 	<span><span class="glyphicon glyphicon-envelope"></span> bayman48@new.rr.com</span><br/>
