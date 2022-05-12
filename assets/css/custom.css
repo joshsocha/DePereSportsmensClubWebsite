@@ -109,7 +109,8 @@ div.float{
 div.newsletter-float{
   display:
   inline-block;float: left;
-  padding-right: 40px;
+  padding-right: 20px;
+  padding-left: 20px
 }
 
 #nav.affix {
