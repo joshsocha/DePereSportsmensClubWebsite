@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
 				"sun",
 				"sunsetTime"
 			],
@@ -96,84 +104,76 @@
 	"buffers":
 	[
 		{
-			"file": "application/views/templates/footer.php",
-			"settings":
-			{
-				"buffer_size": 390,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/custom.css",
-			"settings":
-			{
-				"buffer_size": 2809,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/controllers/Facilities.php",
-			"settings":
-			{
-				"buffer_size": 2921,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/views/pages/Facilities/RifleRange.php",
-			"settings":
-			{
-				"buffer_size": 3015,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/views/pages/Facilities/Index.php",
-			"settings":
-			{
-				"buffer_size": 2847,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "application/views/pages/Home.php",
 			"settings":
 			{
-				"buffer_size": 2479,
+				"buffer_size": 2499,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Windows/System32/drivers/etc/hosts",
-			"settings":
-			{
-				"buffer_size": 1325,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "application/views/pages/EventsAndNews/HuntersSafety.php",
 			"settings":
 			{
-				"buffer_size": 3745,
+				"buffer_size": 4729,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/views/templates/header.php",
+			"file": "application/views/pages/EventsAndNews/Winterfest.php",
 			"settings":
 			{
-				"buffer_size": 8485,
+				"buffer_size": 3896,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Joshua/Google Drive/Documents/FoldingAtHome.txt",
+			"settings":
+			{
+				"buffer_size": 26,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "111065"
+			}
+		},
+		{
+			"file": "/C/Windows/System32/drivers/etc/hosts",
+			"settings":
+			{
+				"buffer_size": 1328,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/pages/EventsAndNews/SightInDays.php",
+			"settings":
+			{
+				"buffer_size": 2543,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Media/anime/Fullmetal.Alchemist.Brotherhood/chanegtags.bat",
+			"settings":
+			{
+				"buffer_size": 477,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "smartcomms@humana.com.qa\nSmartComms1#\n\n1. What prfession did you want to follow as a child?\nA. Developer\n\n2. What was the anme of your favourite teacher?\nA. bryan\n\n3.What is the make and model of your first car?\nA. ford bornco",
+			"settings":
+			{
+				"buffer_size": 226,
+				"line_ending": "Windows",
+				"name": "smartcomms@humana.com.qa"
 			}
 		}
 	],
@@ -211,47 +211,75 @@
 	[
 		"/C/xampp/htdocs/deperesportsmens.club",
 		"/C/xampp/htdocs/deperesportsmens.club/application",
-		"/C/xampp/htdocs/deperesportsmens.club/application/controllers",
+		"/C/xampp/htdocs/deperesportsmens.club/application/libraries",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/AboutUs",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/templates",
-		"/C/xampp/htdocs/deperesportsmens.club/assets"
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Join",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/templates"
 	],
 	"file_history":
 	[
-		"/C/xampp/apache/logs/error.log",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/AboutUs/BoardMembers.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/3DArcheryRange.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/3DArchery.php",
+		"/C/Users/Joshua/AppData/Local/Temp/Temp1_Custom_Backgrounds_Loader_Updater_1.1.zip/README.txt",
+		"/H/README.txt",
+		"/C/Users/Joshua/AppData/Local/Temp/Temp1_Drak_Grey_2.0.zip/README.txt",
+		"/C/Users/Joshua/AppData/Local/Programs/Cricut Design Space/vk_swiftshader_icd.json",
+		"/C/JoshTest/test.txt",
+		"/D/Emulators/DS/melonDS.ini",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/templates/header.php",
+		"/D/AliciaBackup/.DS_Store",
+		"/C/Users/alici/BullseyeCoverageError.txt",
+		"/C/Users/Joshua/Desktop/temp/DVDFab v11.0.4.2 (08.08.2019) Multilingual (64bit)/READ ME! install.txt",
+		"/D/Joshua/Downloads/CrystalDiskInfo8_9_0a/ReadMe.txt",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Join/Index.php",
+		"/D/Joshua/Downloads/» p a s s w o r d  [readme].txt",
+		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/Leagues.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/4H.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/AboutUs/RecommendedSites.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/ActionPistol.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/SightInDays.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/20GunRaffle.php",
+		"/C/Users/Joshua/AppData/Local/CrashDumps/Plex Media Server.exe.5224.dmp",
+		"/C/Users/Joshua/Downloads/Plex Media Server Logs_2019-12-02_08-46-44/Plex Crash Uploader.log",
+		"/C/Users/Joshua/Documents/temp/index.html",
+		"/C/Users/Joshua/Downloads/web.config",
+		"/C/Users/Joshua/Downloads/deperesportsmens.club.publishsettings",
+		"/E/Media/Music/Sia/This is Acting/index.html",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/HuntersSafety.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Home.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/Winterfest.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/templates/footer.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/JuniorRifle.php",
+		"/D/Media/movies/Fern Gully - The Last Rainforest.1982.DVDRip/info/index.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/ActionPistolParticipantInfo.php",
+		"/C/xampp/htdocs/deperesportsmens.club/assets/css/custom.css",
+		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/Facilities.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/RifleRange.php",
+		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/Index.php",
+		"/C/xampp/apache/logs/error.log",
 		"/C/Users/Joshua/Downloads/windows/client1.ovpn",
 		"/E/Media/TvShows/Archer/Season 9/test.txt",
 		"/C/Users/Joshua/Google Drive/Documents/Home VPN/windows/client1.ovpn",
 		"/C/Users/Joshua/Google Drive/Documents/Home VPN/client2.conf",
 		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/JuniorRifle.php",
 		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/templates/header.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/errors/html/error_404.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Join/Index.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/ActionPistol.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/ActionRifle.php",
 		"/C/xampp/htdocs/deperesportsmens.club/.gitignore",
 		"/C/xampp/htdocs/deperesportsmens.club/contributing.md",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/4H.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Home.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/ClubHouse.php",
 		"/C/xampp/htdocs/deperesportsmens.club/assets/web.config",
 		"/C/xampp/htdocs/deperesportsmens.club/web.config",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/Trap.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/RifleRange.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/Trap.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/Pistol.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/HuntersSafety.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/SightInDays.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/Winterfest.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/Newsletter.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/Index.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/Index.php",
 		"/C/Users/Joshua/OneDrive/Documents/FORScan/F150/BCM20160625.abt",
 		"/C/Users/Joshua/Downloads/1FTFX1EF2GKF42529.ab",
 		"/C/Users/Joshua/Desktop/josh.crt",
@@ -294,8 +322,6 @@
 		"/C/Users/Joshua/AppData/Local/Temp/Temp1_php_apcu-5.1.5-7.0-nts-vc14-x86.zip/INSTALL",
 		"/C/Users/Joshua/AppData/Local/Temp/Temp1_php_apcu-5.1.5-7.0-nts-vc14-x86.zip/README.md",
 		"/C/xampp/htdocs/pokemon/index.html",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/templates/footer.php",
-		"/C/xampp/htdocs/deperesportsmens.club/assets/css/custom.css",
 		"/C/Users/Joshua/Downloads/TS3ServiceWrapper/TS3ServiceWrapper.exe.config",
 		"/C/Users/Joshua/AppData/Roaming/aacs/hrl",
 		"/C/Users/Joshua/AppData/Roaming/aacs/drl",
@@ -307,17 +333,13 @@
 		"/C/xampp/htdocs/deperesportsmens.club/readme.rst",
 		"/C/xampp/htdocs/deperesportsmens.club/composer.json",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Gallery/ActionPistolVideos.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/AboutUs/RecommendedSites.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/AboutUs/Index.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/CancerResearchBenefit.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/EventsAndNews/SportsmensRaffle.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/3DArcheryRange.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Leagues/Index.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/NaturePreserve.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/views/pages/Facilities/IndoorRange.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/Gallery.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/Facilities.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/Leagues.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/EventsAndNews.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/core/MY_Controller.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/controllers/Join.php",
@@ -327,31 +349,11 @@
 		"/C/Users/Joshua/Desktop/google-api-php-client-master/src/Google/Service/Drive.php",
 		"/C/xampp/htdocs/deperesportsmens.club/application/third_party/Google/Auth/OAuth2.php",
 		"/C/Users/Joshua/Desktop/google-api-php-client-master/examples/fileupload.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/third_party/Google/Service/Drive.php",
-		"/C/Users/Joshua/Desktop/google-api-php-client-master/examples/simple-query.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/third_party/Google/Service/Oauth2.php",
-		"/C/xampp/htdocs/deperesportsmens.club/application/third_party/Google/autoload.php",
-		"/C/Users/Joshua/Downloads/DePereSportsmensClub-cdcb4ffa80cb.json",
-		"/C/Users/Joshua/Desktop/google-api-php-client-master/examples/simplefileupload.php",
-		"/C/Users/Joshua/Desktop/google-api-php-client-master/examples/user-example.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/config/doctypes.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/controllers/Facilities.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/controllers/EventsAndNews.php",
-		"/C/Users/Joshua/Desktop/google-api-php-client-master/src/Google/autoload.php",
-		"/C/Users/Joshua/Desktop/google-api-php-client-master/examples/templates/base.php",
-		"/C/Users/Joshua/Desktop/google-api-php-client-master/autoload.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/Facilities/Index.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/EventsAndNews/HuntersSafety.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/Leagues/Trap.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/Leagues/Pistol.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/Leagues/JuniorRifle.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/views/pages/Leagues/3DArchery.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/controllers/Leagues.php",
-		"/C/xampp/htdocs/deperesportsments.club/application/config/routes.php"
+		"/C/xampp/htdocs/deperesportsmens.club/application/third_party/Google/Service/Drive.php"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -367,6 +369,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"22",
+			"jpg",
+			"</tr>",
+			"<tr>",
+			"<td>[a-Z ]*</td></tr>",
+			"20",
+			"<td></td><td></td></tr>",
 			"<domain-name>",
 			"<username>",
 			"920.619.3933",
@@ -435,9 +444,13 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"",
+			"/tr>\t",
+			"</tr>",
+			"<td>GUN</td><td>WINNER</td></tr>",
 			"joshsocha.com",
 			"Joshua",
 			"<td><span class=\"glyphicon glyphicon-phone-alt\"></span> 920",
@@ -468,24 +481,24 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "application/views/templates/footer.php",
+					"file": "application/views/pages/Home.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 390,
+						"buffer_size": 2499,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								226,
-								226
+								524,
+								524
 							]
 						],
 						"settings":
@@ -493,92 +506,93 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 15.3333333333,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "assets/css/custom.css",
+					"file": "application/views/pages/EventsAndNews/HuntersSafety.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2809,
+						"buffer_size": 4729,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1988,
-								1988
+								4213,
+								4227
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1125.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "application/controllers/Facilities.php",
+					"file": "application/views/pages/EventsAndNews/Winterfest.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2921,
+						"buffer_size": 3896,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2302,
-								2302
+								1642,
+								1642
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 467.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "application/views/pages/Facilities/RifleRange.php",
+					"file": "/C/Users/Joshua/Google Drive/Documents/FoldingAtHome.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3015,
+						"buffer_size": 26,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3015,
-								3015
+								26,
+								26
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"auto_name": "111065",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -589,67 +603,11 @@
 				},
 				{
 					"buffer": 4,
-					"file": "application/views/pages/Facilities/Index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2847,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2113,
-								2113
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "application/views/pages/Home.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2479,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								299,
-								299
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "/C/Windows/System32/drivers/etc/hosts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1325,
+						"buffer_size": 1328,
 						"regions":
 						{
 						},
@@ -668,24 +626,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "application/views/pages/EventsAndNews/HuntersSafety.php",
+					"buffer": 5,
+					"file": "application/views/pages/EventsAndNews/SightInDays.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3745,
+						"buffer_size": 2543,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								123,
-								123
+								1688,
+								1688
 							]
 						],
 						"settings":
@@ -697,37 +655,63 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "application/views/templates/header.php",
+					"buffer": 6,
+					"file": "/E/Media/anime/Fullmetal.Alchemist.Brotherhood/chanegtags.bat",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8485,
+						"buffer_size": 477,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3366,
-								3417
+								82,
+								82
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 217.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"auto_name": "smartcomms@humana.com.qa",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -735,11 +719,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -772,7 +756,7 @@
 	"project": "dpsc.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -810,7 +794,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 316.0,
+	"side_bar_width": 284.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

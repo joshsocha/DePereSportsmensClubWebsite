@@ -3,6 +3,7 @@
 <head>
 	<link href="<?php echo base_url('/assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
   <link href="<?php echo base_url('/assets/css/custom.css'); ?>" rel="stylesheet">
+  <link href="<?php echo base_url('/assets/css/fontawesome/all.min.css'); ?>" rel="stylesheet">
 	<title><?php if(isset($title)) echo $title; ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <?php if(!in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1'))) : ?>
@@ -14,6 +15,13 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-96849732-1');
+  </script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-5735797484663928",
+      enable_page_level_ads: true
+    });
   </script>
 <?php endif; ?>
 </head>

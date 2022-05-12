@@ -3,14 +3,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <h1>Upcoming Events &amp; News:</h1>
 <hr></hr>
-<h2>Sight-In Days</h2>
-<p>The De Pere Sportsmen's Club will be starting up their 2018 sight-in days.  The weekend before youth hunt will be the first available time to sight-in. For our other times that we will be holding them be sure to check ou the <a href="<?php echo base_url();?>EventsAndNews/SightInDays">Sign-In Days</a> page</p>
+<h2 style="font-size: 48pt">Club Clean Up May 17</h2>
+<p>The De Pere Sportsmen's Club needs club members help with cleaning up the club grounds. Also looking for people who are willing to bring their 4 wheelers and small trailers for speading mulch as well.  Work will begin by 5 pm on May 17, 2022.  Call Scott Harris (<span class="glyphicon glyphicon-phone-alt"></span> 920.819.4349</td>) for any questions.</p>
 <hr></hr>
-<h2>20-Gun Raffle</h2>
-<p>The 20-Gun Raffle was drawn on September 6th.  Check out the winners on the <a href="<?php echo base_url();?>EventsAndNews/20GunRaffle">20-Gun Raffle</a> page!</p>
-<hr></hr>
-<h2>2018 3D Archery</h2>
-<p>3D Archery is starting back up May 15th and goes through September 11th. You can shoot any day of the week, but the bar will only be open on Tuesday nights starting at 6:00 PM. Stop by then and enjoy a drink with your fellow archers.</p>
+<h2>3D Outdoor Archery Now Open</h2>
+<p>The De Pere Sportsmen's Club 3D archery course is now back open for the 2022 season!  All of the 3D tragets are up and ready to go.</p>
+<img src="/assets/images/3darchery2022.jpg" class="img-responsive"/>
 <hr></hr>
 <h1>Who we are...</h1>
 <p>Welcome to the DePere Sportsmen’s Club! Established in 1952 by a group of dedicated volunteer sportsmen to further promote shooting sports in the Green Bay area, the De Pere Sportsmen's Club continues to provide opportunities for people of all ages to experience the benefits and beauty of a lovely natural surrounding while continuing to educate community members, and promote a wide range of shooting sports in a safe appropriate facility. The legacy of the founders continues today through the regular efforts of volunteers. Check in with a Board member to find out how you can help continue the legacy for future generations.</p>

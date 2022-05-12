@@ -8,6 +8,7 @@
 	<b>Archery  Representative:</b><br/>
 	<span>Jim Landwehr</span><br/>
 	<span>920.680.0850</span><br/>
+	<span><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/De-Pere-Sportsmens-Club-Archery-111159311074493" target="_blank">Check us out on Facebook!</a></span><br/>
 </div>
 <div class="col-lg-9 col-md-9 col-sm-8">
 	<p>The hills behind the Clubhouse are home to one of the finest archery courses found in the state. The 30-station course is open to both members and non-members. There is also a 3-D course on the site of the field course, consisting of 30 targets. Each target is sponsored by an individual or organization, and annually there are opportunities to help keep this course up to date. Check in with one of the league members for more information. </p>
