@@ -93,7 +93,6 @@
             <ul class="dropdown-menu" role="menu">
             <li class="<?php if($subpage=="aboutus") echo 'active';?>"><a href="<?php echo base_url();?>AboutUs">About Us</a></li>
             <li class="<?php if($subpage=="boardmembers") echo 'active';?>"><a  href="<?php echo base_url();?>AboutUs/BoardMembers">Board Members</a></li>
-            <li class="<?php if($subpage=="bylaws") echo 'active';?>"><a target="_blank" href="https://dl.dropboxusercontent.com/u/168704/DPSC/Bylaws.pdf">By-Laws</a></li>
             <li class="<?php if($subpage=="recommendedsites") echo 'active';?>"><a href="<?php echo base_url();?>AboutUs/RecommendedSites">Recommended Sites</a></li>
           </ul>
         </li>
@@ -101,7 +100,6 @@
         <li <?php if($page=="gallery") echo 'class="active"';?>>
           <a data-toggle="dropdown" class="dropdown-toggle" role="button" aria-expanded="false">Gallery <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-            <li class="<?php if($subpage=="actionpistolvideos") echo 'active';?>"><a href="<?php echo base_url();?>Gallery/ActionPistolVideos">Action Pistol Videos</a></li>
             <li class="<?php if($subpage=="photogallery") echo 'active';?>"><a target="_blank" href="http://www.facebook.com/pages/De-Pere-Sportsmens-Club/120542164625203?sk=photos">Photo Gallery</a></li>
           </ul>
         </li>

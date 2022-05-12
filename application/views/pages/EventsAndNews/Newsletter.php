@@ -51,9 +51,18 @@ foreach($myFiles as $myFile){
 }*/
 ?>
 <div class="newsletter-float">
+	<h3>2022</h3>
+	<a href="https://docs.google.com/document/d/1HlV-CcB52K8-wLHjgQeMfIw6pKDBMEXA/edit?usp=sharing&ouid=102923582788528562222&rtpof=true&sd=true" target="_blank">Spring</a><br/>
+	<span></span><br/>
+	<span></span><br/>
+	<span></span><br/>
+</div>
+<div class="newsletter-float">
 	<h3>2016</h3>
-	<span style="font-size: 14px;"><a href="https://www.dropbox.com/s/uejqq5y88ma938k/DPS Newsletter-Winter 2016.doc?raw=1" target="_blank">Winter</a></span><br/>
-	<a href="https://drive.google.com/open?id=0B4darMYoCJ0mQ1p3NWg2SkUyR00" target="_blank">Summer</a><br/>
+	<a href="https://www.dropbox.com/s/uejqq5y88ma938k/DPS Newsletter-Winter 2016.doc?raw=1" target="_blank">Winter</a><br/>
+	<a href="https://drive.google.com/file/d/18X6ZeuM3r4FJisznQQ0IB4s5Ryjt0V66/view?usp=sharing" target="_blank">Summer</a><br/>
+	<span></span><br/>
+	<span></span><br/>
 </div>
 <div class="newsletter-float">
 	<h3>2015</h3>
@@ -63,37 +72,44 @@ foreach($myFiles as $myFile){
 	<a href="https://www.dropbox.com/s/wd269b6aqws6vjc/DPS Newsletter Winter 2015.doc?raw=1" target="_blank">Winter</a><br/>
 </div>
 <div class="newsletter-float">
-<h3>2014</h3>
-	<a href="https://dl.dropboxusercontent.com/u/168704/DPSC/Newsletter/DPS_Newsletter-Fall_2014.doc" target="_blank">Fall</a><br/>
-	<a href="https://dl.dropboxusercontent.com/u/168704/DPSC/Newsletter/DPS_Newsletter-Spring_2014.doc" target="_blank">Spring</a><br/>
-	<a href="https://dl.dropboxusercontent.com/u/168704/DPSC/Newsletter/DPS_Newsletter-Winter_2014.doc" target="_blank">Winter</a><br/>
+	<h3>2014</h3>
+	<a href="https://docs.google.com/document/d/10X5EhC5gV5sDlZW0ftLlbPGjrvsiakFl/edit?usp=sharing&ouid=102923582788528562222&rtpof=true&sd=true" target="_blank">Fall</a><br/>
+	<a href="https://docs.google.com/document/d/1-aBSjT2oPYDFlkyCfNbl6KrMIsz2GQA_/edit?usp=sharing&ouid=102923582788528562222&rtpof=true&sd=true" target="_blank">Spring</a><br/>
+	<a href="https://docs.google.com/document/d/1-ir-bp9ftfls2aLvfTyFa_wXvoXKo67-/edit?usp=sharing&ouid=102923582788528562222&rtpof=true&sd=true" target="_blank">Winter</a><br/>
+	<span></span><br/>
 </div>
 <div class="newsletter-float">
 	<h3>2013</h3>
 	<a href="https://dl.dropboxusercontent.com/u/168704/DPSC/Newsletter/DPS_Newsletter-Fall_2013.doc" target="_blank">Fall</a><br/>
 	<a href="https://dl.dropboxusercontent.com/u/168704/DPSC/Newsletter/DPS_Newsletter-Spring_2013.doc" target="_blank">Spring</a><br/>
 	<a href="https://dl.dropboxusercontent.com/u/168704/DPSC/Newsletter/DPS_Newsletter-Winter_2013.doc" target="_blank">Winter</a><br/>
+	<span></span><br/>
 </div>
 <div class="newsletter-float">
-<h3>2012</h3>
+	<h3>2012</h3>
 	<a href="https://www.dropbox.com/s/6ce2emjn37jn8i1/Fall_2012.doc" target="_blank">Fall</a><br/>
 	<a href="https://www.dropbox.com/s/zhl6hc9yfk3oqqg/Spring_2012.doc" target="_blank">Spring</a><br/>
 	<a href="https://www.dropbox.com/s/nqcml1pv893dr6j/Winter_2012.doc" target="_blank">Winter</a><br/>
+	<span></span><br/>
 </div>
 <div class="newsletter-float">
-<h3>2011</h3>
+	<h3>2011</h3>
 	<a href="https://www.dropbox.com/s/pbr3mdu5bgty0ic/Fall_2011.doc" target="_blank">Fall</a><br/>
 	<a href="https://www.dropbox.com/s/wnbqs038lmk0a8y/Spring_2011.doc" target="_blank">Spring</a><br/>
 	<a href="https://www.dropbox.com/s/9s2oenujn6iadwo/Winter_2011.doc" target="_blank">Winter</a><br/>
+	<span></span><br/>
 </div>
 <div class="newsletter-float">
 	<h3>2010</h3>
 	<a href="https://dl.dropboxusercontent.com/u/168704/DPSC/Newsletter/DPS%20Newsletter-Spring%202010.doc" target="_blank">Spring</a><br/>
 	<a href="https://dl.dropboxusercontent.com/u/168704/DPSC/Newsletter/DPS%20Newsletter-Winter%202010.doc" target="_blank">Winter</a><br/>
+	<span></span><br/>
+	<span></span><br/>
 </div>
 <div class="newsletter-float">
 	<h3>2009</h3>
 	<a href="https://dl.dropboxusercontent.com/u/168704/DPSC/Newsletter/DPS%20Newsletter-Fall%202009.doc" target="_blank">Fall</a><br/>
-</div>
-</div>
+	<span></span><br/>
+	<span></span><br/>
+	<span></span><br/>
 </div>
