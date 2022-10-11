@@ -5,10 +5,9 @@
 </div>
 <div class="row">
 <div class="col-lg-12">
-	<p>The De Pere Sportsmen’s Club is once again offering hands on Hunter Ed. Classes.</p>
-	<p>The classes are set for April  8th, 13th, and 15th. The classes will be posted on the DNR website at <a href="https://gowild.wi.gov/customers/safetyedclass" target="_blank">WI DNR Go Wild</a> website. You have to sign up online.  Go to the DNR website browse classes, search course type (HUNTER), county.  Find a class that fits your schedule and enroll.</p>
-	<p>Before enrolling in any class a DNR customer identification number is required. This can be obtained through the DNR website or calling DNR Customer Service at 1-888-936-7463</p>
-	<p>When classes are posted, do not hesitate to enroll as these classes fill up quickly.</p>
+	<h2>Fall hunter education class for De Pere Sportsmen’s Club is full.</h2>
+	<p>The fall Hunter Education course will be held at the De Pere Sportsmen's Club on September 7th, 9th, and 14th from 6:00 pm to 9:00 pm.</p>
+	<p>In order to sign up go to the DNR website at <a href="https://gowild.wi.gov/customers/safetyedclass" target="_blank">WI DNR Go Wild</a>. Search for "HUNTER" Course Type and "BROWN for County".  Find the club's class and enroll there. When you see it posted on the DNR website, don't hesitate to sign up as these fall classes fill up quick.</p>
 	<p><b>Additional Questions: </b>Dennis Dugre at 920-494-9227 &amp; Rick Allcox at 920-819-2574</p>
 	<!---<p>Hunting Course Requirements (<a href="http://dnr.wi.gov/education/outdoorSkills/safetyEducation.html#2">From WI DNR Website</a>)</p>
 	<p>Anyone born on or after Jan. 1, 1973, must have completed a hunter education course and show the certificate to purchase any hunting license in Wisconsin. However, if they will be hunting under the hunting mentorship program or they have successfully completed and have proof completing basic training in the U.S. armed forces, reserves or national guard, they do not need a hunting safety course certificate to purchase a license.</p>

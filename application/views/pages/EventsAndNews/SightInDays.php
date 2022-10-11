@@ -14,18 +14,18 @@
 	<p>Each fall the Club offers opportunities for the general public to sight in their firearms for the fall seasons. Experienced shooters are available throughout the event to ensure safety and to assist shooters with adjusting their sights during the regular hours of this event. </p>
 	<p><b>Sight-in Days is a successful fundraiser with sufficient volunteer help, and we ask that you consider building your 10 volunteer hours with the Club in helping with this event. It's an easy way to get next year's membership discount. To sign up, contact Joe Socha at <a href="mailto:riflerange@deperesportsmensclub.com">riflerange@deperesportsmensclub.com</a></b></p>
 	<p>Additional Note to Members: All regular members who wish to shoot may do so if there are lanes open, but are asked to defer to those who have come out to participate in the Sight-In Day program when asked by one of the Sight-In Range Officers. This is to prevent too large of a backlog occurring during this particularly busy time. Members are asked to respect the needs of those who are conducting this important Club fundraiser. No priority is given in the period prior to this last week, but open shooting members are asked to avoid the busiest times if possible.</p>
-	<p><b>The 2021 Site-In Days are as follows:</b></p>
+	<p><b>The 2022 Site-In Days are as follows:</b></p>
 	<table>
 		<thead>
 			<tr><th>Date</th><th>Time</th></tr>
 		</thead>
 		<tbody>
-			<tr><td>October 2 and 3</td><td>8 am - 12 pm</td></tr>
-			<tr><td>October 23 and 24</td><td>8 am - 12 pm</td></tr>
-			<tr><td>October 30 and October 31</td><td>8 am - 5 pm</td></tr>
-			<tr><td>November 6 and 7</td><td>8 am - 5 pm</td></tr>
-			<tr><td>November 13 and 14</td><td>8 am - 8 pm</td></tr>
-			<tr><td>November 15 thru 18</td><td>10 am - 8 pm</td></tr>
+			<tr><td>October 1 and 2</td><td>8 am - 12 pm</td></tr>
+			<tr><td>October 22 and 23</td><td>8 am - 12 pm</td></tr>
+			<tr><td>October 29 and October 30</td><td>8 am - 5 pm</td></tr>
+			<tr><td>November 5 and 6</td><td>8 am - 5 pm</td></tr>
+			<tr><td>November 12 and 13</td><td>8 am - 8 pm</td></tr>
+			<tr><td>November 14 thru 17</td><td>10 am - 8 pm</td></tr>
 		</tbody>
 	</table>
 	<p><b>Cost:</b> $5 per firearm</p>

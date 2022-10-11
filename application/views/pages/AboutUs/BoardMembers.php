@@ -2,7 +2,7 @@
 <div>
 <h1>Board Members</h1>
 
-<h2>2020-2021 Board of Directors</h2>
+<h2>2022-2023 Board of Directors</h2>
 <p>The following are the elected and appointed members that will be representing the club this year. If you have any questions, please do not hesitate to contact anyone listed below.</p>
 <table class="table-with-header">
 	<thead>
@@ -10,7 +10,7 @@
 	</thead>
 	<tbody>
 		<tr><td>President</td><td>Scott Harris </td><td><span class="glyphicon glyphicon-phone-alt"></span> 920.819.4349</td></tr>
-		<tr><td>Vice President</td><td>Kevin Sommerfeld</td><td><span class="glyphicon glyphicon-phone-alt"></span> 920.339.9948</td></tr>
+		<tr><td>Vice President</td><td>Josh Landwehr</td><td><!--<span class="glyphicon glyphicon-phone-alt"></span> !--></td></tr>
 		<tr><td>Secretary/Membership</td><td>Becky Schuessler</td><td><span class="glyphicon glyphicon-phone-alt"></span> 920.217.0923</td></tr>
 		<tr><td>Treasurer</td><td>Beth Sommerfeld</td><td><span class="glyphicon glyphicon-phone-alt"></span> 920.621.7606</td></tr>
 		<tr><td>Junior Rifle</td><td>Jason Knight<br/>Dennis Dugre</td><td><span class="glyphicon glyphicon-phone-alt"></span> 920.562.0136<br/><span class="glyphicon glyphicon-phone-alt"></span> 920.494.9227</td></tr>
@@ -27,8 +27,8 @@
 		<tr><td>Members at Large</td>
 			<td>
 				Bill Lund<br/>
-				Bill Van Camp<br/>
-				Brian Cisler<br/>
+				Bill VanCamp<br/>
+				Tom VanDrasek<br/>
 				Dan Minten
 			</td>
 			<td>

@@ -6,17 +6,13 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>Action Pistol Representatives:</b><br/>
-	<span></span>Tom Lang<br/>
-	<span><span class="glyphicon glyphicon-envelope"></span> tlang6030@yahoo.com</span><br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.530.3494</span><br/>
-	<br/>
 	<span>Joe Kummerer</span><br/>
 	<span><span class="glyphicon glyphicon-envelope"></span> bayman48@new.rr.com</span><br/>
 	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.619.3933</span><br/>
 	<br/>
-	<span>Rob Lefebvre</span><br/>
-	<span><span class="glyphicon glyphicon-envelope"></span>  rolefebvre@yahoo.com</span><br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span>  920.337.4617</span><br/>
+	<span>Brian Cisler Lefebvre</span><br/>
+	<span><span class="glyphicon glyphicon-envelope"></span>  briancisler@gmail.com</span><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span>  920.336.2433</span><br/>
 	<br/>
 </div>
 <div class="col-lg-9 col-md-9 col-sm-8">

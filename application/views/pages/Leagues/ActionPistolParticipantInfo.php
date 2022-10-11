@@ -4,17 +4,13 @@
 </div>
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>Action Pistol Representatives:</b><br/>
-	<span></span>Tom Lang<br/>
-	<span><span class="glyphicon glyphicon-envelope"></span> tlang6030@yahoo.com</span><br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 608.695.9777</span><br/>
-	<br/>
 	<span>Joe Kummerer</span><br/>
 	<span><span class="glyphicon glyphicon-envelope"></span> bayman48@new.rr.com</span><br/>
 	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.619.3933</span><br/>
 	<br/>
-	<span>Rob Lefebvre</span><br/>
-	<span><span class="glyphicon glyphicon-envelope"></span>  rolefebvre@yahoo.com</span><br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span>  920.337.4617</span><br/>
+	<span>Brian Cisler Lefebvre</span><br/>
+	<span><span class="glyphicon glyphicon-envelope"></span>  briancisler@gmail.com</span><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span>  920.336.2433</span><br/>
 	<br/>
 </div>
 <div class="col-lg-9 col-md-9 col-sm-8">	
@@ -53,8 +49,8 @@
 	<h2>Operations</h2>
 	<p>Starting first week of April at 4:00pm, check-in and pay range fees:</p>
 	<ul>
-		<li>$7 members and/or Safety Officers</li>
-		<li>$10 non-members</li>
+		<li>$10 members and/or Safety Officers</li>
+		<li>$15 non-members</li>
 	</ul>
 	
 	<p>From this point onward, eye and ear protection is mandatory. There will be a "gear-up" station where you can put on your gear and load magazines (pistols unloaded and cased) and then onto the"gun-up" or safety area where the pistol is uncased, still unloaded, is holstered.</p>

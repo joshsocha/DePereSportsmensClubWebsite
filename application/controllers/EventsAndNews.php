@@ -72,6 +72,14 @@ class EventsAndNews extends MY_Controller {
 		$this->render_page('pages/EventsAndNews/20GunRaffle');
 	}
 
+	public function SummerRaffle()
+	{
+		$this->data['title'] = '$ummer Raffle';
+		$this->data['subpage'] = "summerraffle";
+		$this->data["banner"] = "RifleRangeBanner.jpg";
+		$this->render_page('pages/EventsAndNews/SummerRaffle');
+	}
+
 	public function SightInDays()
 	{
 		$this->data['title'] = "Sight-in Days";

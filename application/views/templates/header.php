@@ -58,7 +58,8 @@
             <li class="<?php if($subpage=="winterfest") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/Winterfest">Winterfest</a></li>
             <?php /*<li class="<?php if($subpage=="sportsmensraffle") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/SportsmensRaffle">Sportsmen's Raffle</a></li>*/?>
             <?php /*<li class="<?php if($subpage=="cancerresearchbenefit") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/CancerResearchBenefit">Cancer Research Benefit</a></i>*/?>
-            <li class="<?php if($subpage=="20gunraffle") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/20GunRaffle">20-Gun Raffle</a></li>
+            <?php /*<li class="<?php if($subpage=="20gunraffle") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/20GunRaffle">20-Gun Raffle</a></li>*/?>
+            <li class="<?php if($subpage=="summerraffle") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/SummerRaffle">$ummer Raffle</a></li>
             <li class="<?php if($subpage=="sightindays") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/SightInDays">Sight-in Days</a></li>
             <li class="<?php if($subpage=="hunterssafety") echo 'active';?>"><a href="<?php echo base_url();?>EventsAndNews/HuntersSafety">Hunter's Safety</a></li>
           </ul>
