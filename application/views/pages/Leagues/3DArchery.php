@@ -6,8 +6,8 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>Archery  Representative:</b><br/>
-	<span>Jim Landwehr</span><br/>
-	<span>920.680.0850</span><br/>
+	<span>Jim Sausen</span><br/>
+	<span>920.819.6616</span><br/>
 	<span><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/De-Pere-Sportsmens-Club-Archery-111159311074493" target="_blank">Check us out on Facebook!</a></span><br/>
 </div>
 <div class="col-lg-9 col-md-9 col-sm-8">
