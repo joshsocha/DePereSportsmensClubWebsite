@@ -52,6 +52,13 @@ foreach($myFiles as $myFile){
 ?>
 <div class="row">
 	<div class="newsletter-float">
+		<h3>2023</h3>
+		<span><a href="https://drive.google.com/file/d/1C6BsRTpIv-UR0-tByM_zRFgDt86glwD0/view" target="_blank">Winter</a></span><br/>
+		<span><a href="https://drive.google.com/file/d/13zjVWEYO0EMAtFRxu71suNmdfgzb1-jp/view" target="_blank">Spring</a></span><br/>
+		<span></span><br/>
+		<span></span><br/>
+	</div>
+	<div class="newsletter-float">
 		<h3>2022</h3>
 		<a href="https://docs.google.com/document/d/1HlV-CcB52K8-wLHjgQeMfIw6pKDBMEXA/edit?usp=sharing&ouid=102923582788528562222&rtpof=true&sd=true" target="_blank">Spring</a><br/>
 		<span><a href="https://drive.google.com/file/d/17iBQ9aOin9k0_IBO5MJHC48N80p7rt5c/view?usp=sharing" target="_blank">Summer</a></span><br/>

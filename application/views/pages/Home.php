@@ -2,18 +2,22 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <div class="row no-gutters">
-    <div class="col-lg-8 col-md-6 col-sm-12">
+    <div class="col-lg-7 col-md-6 col-sm-12">
         <h1>Upcoming Events &amp; News:</h1>
         <hr></hr>
-        <h2>71st Annual Winter Festival</h2>
-        <p>Come join us on February 26, 2023 for booyah, hamburgers, refreshments, kid's games, and raffles!  Check out the <a href="<?php echo base_url();?>EventsAndNews/Winterfest">Winterfest</a> page for more details.</p>
+        <h2>Summer Trap</h2>
+        <p>Winter trap finished up a great season in March. Summer leagues have started and will shoot until September. There is availability for open shooting on both Mondays and Thursdays. Remember to always go into the bar to the trap office and pay for your open shoot before you go onto the open field.</p>
         <hr></hr>
-        <h2>Hunter Safety</h2>
-        <p>The De Pere Sportsmans Club will be conducting its 2023 spring class on April 5th, 7th, and 12th. Please check out the <a href="<?php echo base_url();?>EventsAndNews/HuntersSafety">Hunter Safety</a> page for more details.</p>
+        <h2>Grounds Closed June 2nd and 3rd</h2>
+        <p>The De Pere Sportsmen's Club Grounds will be closed June 2nd starting at noon and all-day June 3rd for the Brown County 4H shoot</p>
+        <hr></hr>
+        <h2>Archery</h2>
+        <p>The 3D course is reopened for the spring. Targets are up and ready for arrows. Before entering the course stop by the archery board and pay your fee. <b>Crossbows are only allowed on targets 1 through 6, and NO BROADHEADS are allowed anywhere on the course.</b></p>
+        <p>We are again looking for Sponsors to advertise on one of the many signs that we have by each of the 30 targets we have on the course. This will also put your name and business on the sponsor page on our club website. For only $100 a year, it is a great way to advertise your business. To sponsor a 3D target, please contact Jim S at 920-819-6616.</p>
         <hr></hr>
     </div>
     <div class="w-100 d-none d-sm-block"></div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="col-lg-5 col-md-6 col-sm-12">
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0" nonce="bgvQzoPK"></script>
         <div class="fb-page" data-href="https://www.facebook.com/DePereSportsMensClub/" data-tabs="timeline" data-width="400" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/DePereSportsMensClub/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/DePereSportsMensClub/">De Pere Sportsmen&#039;s Club</a></blockquote></div>
