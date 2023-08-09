@@ -5,11 +5,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="col-lg-7 col-md-6 col-sm-12">
         <h1>Upcoming Events &amp; News:</h1>
         <hr></hr>
+        <h2>Hunter's Safety</h2>
+        <p>The summer Hunter Education course will be held at the De Pere Sportsmen's Club on August 23rd, 25th, and 30th. For more information check out the <a href="<?php echo base_url();?>EventsAndNews/HuntersSafety">Hunter's Safety</a> page.</p>
+        <hr></hr>
         <h2>Summer Trap</h2>
         <p>Winter trap finished up a great season in March. Summer leagues have started and will shoot until September. There is availability for open shooting on both Mondays and Thursdays. Remember to always go into the bar to the trap office and pay for your open shoot before you go onto the open field.</p>
-        <hr></hr>
-        <h2>Grounds Closed June 2nd and 3rd</h2>
-        <p>The De Pere Sportsmen's Club Grounds will be closed June 2nd starting at noon and all-day June 3rd for the Brown County 4H shoot</p>
         <hr></hr>
         <h2>Archery</h2>
         <p>The 3D course is reopened for the spring. Targets are up and ready for arrows. Before entering the course stop by the archery board and pay your fee. <b>Crossbows are only allowed on targets 1 through 6, and NO BROADHEADS are allowed anywhere on the course.</b></p>

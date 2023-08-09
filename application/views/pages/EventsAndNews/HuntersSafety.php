@@ -6,7 +6,7 @@
 <div class="row">
 <div class="col-lg-12">
 	<p>If you know of someone who plans on hunting this fall, now is the time to get them into a Hunter Ed. class. The classes we have in the fall tend to fill up quickly and you may not be able to get enrolled before the hunting season.</p>
-	<p>The spring Hunter Education course will be held at the De Pere Sportsmen's Club on April 5th, 7th, and 12th.</p>
+	<p>The summer Hunter Education course will be held at the De Pere Sportsmen's Club on August 23rd, 25th, and 30th.</p>
 	<p>In order to sign up go to the DNR website at <a href="https://gowild.wi.gov/customers/safetyedclass" target="_blank">WI DNR Go Wild</a>. Search for "HUNTER" Course Type and "BROWN for County".  Find the club's class and enroll there. When you see it posted on the DNR website, don't hesitate to sign up as these fall classes fill up quick.</p>
 	<p><b>Additional Questions: </b>Tom Vollrath at (920) 883-9175 or Dennis Dugre at (920) 494-9227</p>
 	<!---<p>Hunting Course Requirements (<a href="http://dnr.wi.gov/education/outdoorSkills/safetyEducation.html#2">From WI DNR Website</a>)</p>
