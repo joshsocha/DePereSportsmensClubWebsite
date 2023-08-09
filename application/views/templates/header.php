@@ -81,7 +81,7 @@
           <a data-toggle="dropdown" class="dropdown-toggle" role="button" aria-expanded="false">Facilities <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
             <li class="<?php if($subpage=="facilities") echo 'active';?>"><a href="<?php echo base_url();?>Facilities">All Facilities</a></li>
-            <li class="<?php if($subpage=="3darchery") echo 'active';?>"><a href="<?php echo base_url();?>Facilities/3DArcheryRange">3D Archery Range</a></li>
+            <li class="<?php if($subpage=="3darcheryrange") echo 'active';?>"><a href="<?php echo base_url();?>Facilities/3DArcheryRange">3D Archery Range</a></li>
             <li class="<?php if($subpage=="clubhouse") echo 'active';?>"><a href="<?php echo base_url();?>Facilities/ClubHouse">Club House</a></li>
             <li class="<?php if($subpage=="indoorrange") echo 'active';?>"><a href="<?php echo base_url();?>Facilities/IndoorRange">Indoor Range</a></li>
             <li class="<?php if($subpage=="naturepreserve") echo 'active';?>"><a href="<?php echo base_url();?>Facilities/NaturePreserve">Nature Preserve</a></li>

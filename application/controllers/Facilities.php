@@ -35,7 +35,7 @@ class Facilities extends MY_Controller {
 	public function ArcheryRange3D()
 	{
 		$this->data['title'] = "3D Archery Range";
-		$this->data['subpage'] = "3darchery";
+		$this->data['subpage'] = "3darcheryrange";
 		$this->data["banner"] = "3DArcheryBanner.jpg";
 		$this->render_page('pages/Facilities/3DArcheryRange');
 	}
