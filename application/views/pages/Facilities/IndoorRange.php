@@ -6,8 +6,8 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>Pistol Representative:</b><br/>
-	<span></span>Mark Brienen<br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.469.1815</span><br/>
+	<span></span><?php echo $pistol; ?><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> <?php echo $pistolPhone; ?></span><br/>
 	<br/>
 	<img class="img-responsive" src="<?php echo base_url();?>assets/images/IndoorRange.jpg"/>
 </div>

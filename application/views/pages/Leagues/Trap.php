@@ -6,11 +6,11 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>Trap Representatives:</b><br/>
-	<span></span>Brett Junio<br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.680.4594<span><br/>
+	<span></span><?php echo $trap1; ?><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> <?php echo $trapPhone1; ?><span><br/>
 	<br/>
-	<span></span>Adam Prokash<br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.606.9641<span><br/>
+	<span></span><?php echo $trap2; ?><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> <?php echo $trapPhone2; ?><span><br/>
 </div>
 <div class="col-lg-9 col-md-9 col-sm-8">
 	<p>So, you think you want to learn trapshooting? De Pere Sportsmen's Club offers year-round opportunities to get a chance to learn trap shooting, and has league nights on Mondays and Thursdays to offer you the chance to improve your skills. Three trap fields are available. Fields # 1 and # 2 are generally occupied by league shooting while Field # 3 is an “open” field for practice shooting. Leagues are available in summer and fall.</p>

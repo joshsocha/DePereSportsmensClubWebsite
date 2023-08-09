@@ -6,8 +6,8 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>Rifle Range Representative:</b><br/>
-	<span>Joe Socha</span><br/>
-	<span><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:riflerange@deperesportsmensclub.com">riflerange@deperesportsmensclub.com</a></span><br/>
+	<span><?php echo $rifle; ?></span><br/>
+	<span><span class="glyphicon glyphicon-envelope"></span> <?php echo $rifleEmail; ?></span><br/>
 	<br/>
 	<img class="img-responsive" src="<?php echo base_url();?>assets/images/RifleRange.jpg"/>
 </div>

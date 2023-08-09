@@ -6,8 +6,8 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>3D Archery Range Representatives:</b><br/>
-	<span>Jim Sausen</span><br/>
-	<span>920.819.6616</span><br/>
+	<span><?php echo $archery; ?></span><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> <?php echo $archeryPhone; ?></span><br/>
 	<br/>
 	<img class="img-responsive" src="<?php echo base_url();?>assets/images/Preserve.jpg"/>
 </div>

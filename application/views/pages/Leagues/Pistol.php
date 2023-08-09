@@ -6,8 +6,8 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>Pistol Representatives:</b><br/>
-	<span></span>Mark Brienen<br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.469.1815</span><br/>
+	<span></span><?php echo $pistol; ?><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> <?php echo $pistolPhone; ?></span><br/>
 	<br/>
 	<a href="https://dl.dropboxusercontent.com/u/23720637/bullseye handicapV2.xls" target="_blank">2014 Scores</a><br/>
 	<a href="http://dl.dropbox.com/u/23720637/Bullseye-2013.xlsx" target="_blank">2013 Scores</a><br/>

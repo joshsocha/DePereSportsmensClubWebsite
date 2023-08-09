@@ -6,13 +6,13 @@
 <div class="row">
 <div class="col-lg-3 col-md-3 col-sm-4 pull-right">
 	<b>Action Pistol Representatives:</b><br/>
-	<span>Joe Kummerer</span><br/>
-	<span><span class="glyphicon glyphicon-envelope"></span> bayman48@new.rr.com</span><br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span> 920.619.3933</span><br/>
+	<span><?php echo $actionPistol1; ?></span><br/>
+	<span><span class="glyphicon glyphicon-envelope"></span> <?php echo $actionPistolEmail1; ?></span><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span> <?php echo $actionPistolPhone1; ?></span><br/>
 	<br/>
-	<span>Brian Cisler Lefebvre</span><br/>
-	<span><span class="glyphicon glyphicon-envelope"></span>  briancisler@gmail.com</span><br/>
-	<span><span class="glyphicon glyphicon-phone-alt"></span>  920.336.2433</span><br/>
+	<span><?php echo $actionPistol2; ?></span><br/>
+	<span><span class="glyphicon glyphicon-envelope"></span>  <?php echo $actionPistolEmail2; ?></span><br/>
+	<span><span class="glyphicon glyphicon-phone-alt"></span>  <?php echo $actionPistolPhone2; ?></span><br/>
 	<br/>
 </div>
 <div class="col-lg-9 col-md-9 col-sm-8">
