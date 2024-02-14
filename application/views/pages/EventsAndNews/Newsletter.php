@@ -56,7 +56,7 @@ foreach($myFiles as $myFile){
 		<span><a href="https://drive.google.com/file/d/1C6BsRTpIv-UR0-tByM_zRFgDt86glwD0/view" target="_blank">Winter</a></span><br/>
 		<span><a href="https://drive.google.com/file/d/13zjVWEYO0EMAtFRxu71suNmdfgzb1-jp/view" target="_blank">Spring</a></span><br/>
 		<span><a href="https://drive.google.com/file/d/1-4TtaKzyOzKKTO31YTcHSfmA4x1zKSHM/view" target="_blank">Summer</a></span><br/>
-		<span></span><br/>
+		<span><a href="https://drive.google.com/file/d/108cdz7ptqKw597da5E73FPmO-71ajDg4/view" target="_blank">Fall</a></span><br/>
 	</div>
 	<div class="newsletter-float">
 		<h3>2022</h3>

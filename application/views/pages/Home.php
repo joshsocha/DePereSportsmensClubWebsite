@@ -5,16 +5,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="col-lg-7 col-md-6 col-sm-12">
         <h1>Upcoming Events &amp; News:</h1>
         <hr></hr>
-        <h2>Hunter's Safety</h2>
-        <p>The summer Hunter Education course will be held at the De Pere Sportsmen's Club on August 23rd, 25th, and 30th. For more information check out the <a href="<?php echo base_url();?>EventsAndNews/HuntersSafety">Hunter's Safety</a> page.</p>
-        <hr></hr>
-        <h2>Summer Trap</h2>
-        <p>Winter trap finished up a great season in March. Summer leagues have started and will shoot until September. There is availability for open shooting on both Mondays and Thursdays. Remember to always go into the bar to the trap office and pay for your open shoot before you go onto the open field.</p>
-        <hr></hr>
-        <h2>Archery</h2>
-        <p>The 3D course is reopened for the spring. Targets are up and ready for arrows. Before entering the course stop by the archery board and pay your fee. <b>Crossbows are only allowed on targets 1 through 6, and NO BROADHEADS are allowed anywhere on the course.</b></p>
-        <p>We are again looking for Sponsors to advertise on one of the many signs that we have by each of the 30 targets we have on the course. This will also put your name and business on the sponsor page on our club website. For only $100 a year, it is a great way to advertise your business. To sponsor a 3D target, please contact Jim S at 920-819-6616.</p>
-        <hr></hr>
+        <?php if(date('Y-m-d') <= date('Y-m-d', strtotime('2024-02-26'))) : ?>
+            <h2>72nd Annual Winter Festival</h2>
+            <p>The 72nd annual Winter Festival will be Sunday, February 25, 2024.  Starting at 10 am. Main drawing starts at 3 pm. For more information check out the <a href="<?php echo base_url();?>EventsAndNews/Winterfest">Winterfest</a> page.</p>
+            <hr></hr>
+        <?php endif; ?>
+        <?php if(date('Y-m-d') <= date('Y-m-d', strtotime('2024-04-11'))) : ?>
+            <h2>Spring Hunter's Safety</h2>
+            <p>The spring Hunter Education course will be held at the De Pere Sportsmen's Club on April 3, 5, and 10. For more information on sign-up please check out the <a href="<?php echo base_url();?>EventsAndNews/HuntersSafety">Hunter's Safety</a> page.</p>
+            <hr></hr>
+        <?php endif; ?>
+        <?php if(date('Y-m-d') <= date('Y-m-d', strtotime('2024-08-19'))) : ?>
+            <h2>HHAUSA Archery Shoot</h2>
+            <p>HHAUSA will be hosting an archery shoot at the De Pere Sportsmen’s Club on August 17 and 18.  This is their season finale. <a href="https://www.hhausa.org/mission-34-de-pere-sportsmens-club-august-17th-and-18th-2024/" target="_blank">Click here</a> for more information. </p>
+            <hr></hr>
+        <?php endif; ?>
+        <?php if(date('Y-m-d') <= date('Y-m-d', strtotime('2024-02-26'))) : ?>
+            <h2>Thank You Archery Sponsors</h2>
+            <p>Thank you to Wonder Sign, Riverside Ballroom, Mark Baugnet Custom Homes, R G Hendricks Concrete, JEL of Wisconsin, Jessica Wauters (Century 21), and Ledgeview Dental Care. For more information about the archery sponsors, check out the <a href="<?php echo base_url();?>Leagues/3DArchery">Archery</a> page.</p>
+            <hr></hr>
+        <?php endif; ?>
     </div>
     <div class="w-100 d-none d-sm-block"></div>
     <div class="col-lg-5 col-md-6 col-sm-12">

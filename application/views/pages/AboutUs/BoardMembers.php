@@ -2,7 +2,7 @@
 <div>
 <h1>Board Members</h1>
 
-<h2>2022-2023 Board of Directors</h2>
+<h2>2023-2024 Board of Directors</h2>
 <p>The following are the elected and appointed members that will be representing the club this year. If you have any questions, please do not hesitate to contact anyone listed below.</p>
 <table class="table-with-header">
 	<thead>
