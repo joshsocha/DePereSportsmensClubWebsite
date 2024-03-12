@@ -3,26 +3,22 @@
 <h1>Facilities</h1>
 
 <h3><a href="<?php echo base_url();?>Facilities/3DArcheryRange">3D Archery Range</a></h3>
-<p>Wondering though the verdant hills of the Club grounds, the 3D range is challenging to shooters of all skill levels and gives the participants a walk through the home of beautiful wild flowers and mature hardwoods which surround the Club</p>
+<p>Wondering though the verdant hills of the Club grounds, the 3D range is challenging to shooters of all skill levels and gives the participants a walk through the home of beautiful wildflowers and mature hardwoods which surround the Club.</p>
 
 <h3><a href="<?php echo base_url();?>Facilities/ClubHouse">Club House</a></h3>
-<p>Club events center around the Club House as the hub of all activities held on the Club grounds. Recent improvements have upgraded amenities such as the full bar with seating for 40 persons, a large meeting and event room, new seating, restrooms, and a full kitchen.</p>
+<p>Club events center around the Club House as the hub of all activities held on the Club grounds. We have amenities such as a bar, a large meeting and event room, restrooms, and a full kitchen.</p>
 
 <h3><a href="<?php echo base_url();?>Facilities/IndoorRange">Indoor Pistol Range</a></h3>
-<p>De Pere Sportsmen's Club offers a standard 50 foot indoor range for pistol and small bore rifle shooting. Any handgun may be used, but due to the backstop construction a maximum velocity of 800 F.P.S. must be enforced to prevent damage. No jacketed bullets are permitted.</p>
-
-<h3><a href="<?php echo base_url();?>Facilities/NaturePreserve">Nature Preserve</a></h3>
-<p>The Charles Gouleke Nature Area is a preserve located on the club grounds. Dedicated to the memory of Charles Gouleke, this area boasts one of the most...</p>
+<p>De Pere Sportsmen's Club offers a standard 50-foot indoor range for pistol and small-bore rifle shooting which is available for league use only. Not all handguns are allowed due to the backstop construction. The maximum velocity for bullets is 800 FPS. No jacketed bullets are permitted either.</p>
 
 <h3><a href="<?php echo base_url();?>Facilities/RifleRange">Rifle Range</a></h3>
-<p>De Pere Sportsmen's Club has an excellent outdoor range for rifle shooters, with distances of 10, 25, 50, and 100 yards. The range is open year-round to members.</p>
-<p></p>
+<p>De Pere Sportsmen's Club has an excellent outdoor range for rifle shooters, with distances of 10, 25, 50, and 100 yards. There is a 10-meter pistol bay as well. The range is open year-round to members.</p>
 
 <h3><a href="<?php echo base_url();?>Facilities/Trap">Trap</a></h3>
-<p>So, you think you want to learn trapshooting? De Pere Sportsmen's Club offers year-round opportunities to get a chance to learn trap shooting, and has league nights on Mondays and Thursdays to offer you the chance to improve your skills. Three trap fields are available. Fields # 1 and # 2 are generally occupied by league shooting while Field # 3 is an “open” field for practice shooting.</p>
+<p>The trap facilities at De Pere Sportsmen’s Club include three trap ranges against a backdrop of a hill and woods. It is not uncommon to see deer moving and grazing through the woods in the evening, even as members are shooting at clays. They just seem to know that they have nothing to fear up on the hill.</p>
 
 <h2 id="location" name="location">Where are we?</h2>
-<p>The De Pere Sportsmen's Club is convieniently located just minutes southeast of De Pere at:<br/>
+<p>The De Pere Sportsmen's Club is conveniently located just minutes southeast of De Pere at:<br/>
 <div class="float"><span class="glyphicon glyphicon glyphicon-map-marker"></span></div>
 <div class="float">3623 Club Drive <br/>De Pere, WI 54115</div>
 <div style="clear: both;"><span class="glyphicon glyphicon-phone-alt"></span> 920.336.4498<br/></div>

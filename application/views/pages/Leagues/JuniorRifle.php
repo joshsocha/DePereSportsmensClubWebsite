@@ -16,7 +16,7 @@
 	<h2>Who should join?</h2>
 	<p>The Junior Rifle program is open to all youth from 12-20 years of age and who are currently enrolled in hunter’s safety or have completed the certification for the course, who have an interest in the precision shooting sport.</p>
 	<h2>Time Period</h2>
-	<p>The Junior Rifle program is open to all youth from 12-20 years of age and who are currently enrolled in hunter’s safety or have completed the certification for the course, who have an interest in the precision shooting sport.</p>
+	<p>The Junior Rifle program runs from October to May with range shooting on Sunday afternoons.</p>
 	<h2>Cost</h2>
 	<p>A small fee is charged to help cover the cost of ammunition, awards, and equipment upkeep.</p>
 </div>

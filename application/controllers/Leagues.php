@@ -48,6 +48,7 @@ class Leagues extends MY_Controller {
 	{
 		$this->data['title'] = "4H Shooting";
 		$this->data['subpage'] = "4h";
+		$this->data["banner"] = "4HBanner.jpg";
 		$this->render_page('pages/Leagues/4H');
 	}
 
