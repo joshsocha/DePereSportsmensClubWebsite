@@ -27,7 +27,7 @@
 </div>
 <div class="row">
 	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="height:150px">
-		<a href="https://www.wondersignage.com/" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="Wonder Sign" src="<?php echo base_url();?>assets/images/WonderSign.png"/></a>
+		<a href="https://www.wondersignage.com/" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="Wonder Sign" src="<?php echo base_url();?>assets/images/ArcherySponsors/WonderSign.png"/></a>
 	</div>
 	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="height:150px">
 		<div style="text-align:center"><h3><a href="https://riversideballroom.com/" target="_blank">River Side Ballroom</a></h3></div>
@@ -36,15 +36,30 @@
 		<div style="text-align:center"><h3>Mark Baugnet Custom Homes</h3></div>
 	</div>
 	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="height:150px">
-		<a href="https://hendricksconcrete.com/" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="R G Hendricks Concrete" src="<?php echo base_url();?>assets/images/RGHendricks.png"/></a>
+		<a href="https://hendricksconcrete.com/" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="R G Hendricks Concrete" src="<?php echo base_url();?>assets/images/ArcherySponsors/RGHendricks.png"/></a>
 	</div>
 	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="height:150px">
-		<img class="img-responsive" style="max-height: 150px;" alt="JEL of Wisconsin" src="<?php echo base_url();?>assets/images/JELOfWisconsin.png"/>
+		<img class="img-responsive" style="max-height: 150px;" alt="JEL of Wisconsin" src="<?php echo base_url();?>assets/images/ArcherySponsors/JELOfWisconsin.png"/>
 	</div>
 	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="height:150px">
-		<a href="https://jessicawauters.c21.com/" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="Jessica Wauters (Century 21)" src="<?php echo base_url();?>assets/images/JessicaWautersCentury21.jpg"/></a>
+		<a href="https://jessicawauters.c21.com/" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="Jessica Wauters (Century 21)" src="<?php echo base_url();?>assets/images/ArcherySponsors/JessicaWautersCentury21.jpg"/></a>
 	</div>
 	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="height:150px">
-		<a href="https://ledgeviewdental.com/" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="Ledgeview Detnail" src="<?php echo base_url();?>assets/images/LedgeViewDental.png"/></a>
+		<a href="https://ledgeviewdental.com/" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="Ledgeview Dental" src="<?php echo base_url();?>assets/images/ArcherySponsors/LedgeViewDental.png"/></a>
+	</div>
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="height:150px">
+		<a href="https://branches.guildmortgage.com/wi/greenbay/eric-johnson-727-umej.html" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="Guild Mortgage Eric Johnson" src="<?php echo base_url();?>assets/images/ArcherySponsors/GuildMortgage.png"/></a>
+	</div>
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="height:150px">
+		<a href="https://www.pampsoutboard.com/" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="Pamp's Outboard" src="<?php echo base_url();?>assets/images/ArcherySponsors/PampsOutboard.png"/></a>
+	</div>
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="height:150px">
+		<a href="https://www.facebook.com/p/Red-Maple-Archery-100090550634775/" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="Red Maple Archery" src="<?php echo base_url();?>assets/images/ArcherySponsors/RedMapleArchery.png"/></a>
+	</div>
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="height:150px">
+		<a href="mailto:wrecklessblades@gmail.com" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="Wreckless Blades" src="<?php echo base_url();?>assets/images/ArcherySponsors/WrecklessBlades.png"/></a>
+	</div>
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="height:150px">
+		<a href="https://www.fosber.com/" target="_blank"><img class="img-responsive" style="max-height: 150px;" alt="Fosber" src="<?php echo base_url();?>assets/images/ArcherySponsors/Fosber.png"/></a>
 	</div>
 </div>
